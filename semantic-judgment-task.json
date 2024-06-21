@@ -4375,7 +4375,7 @@
       "responses": [
         {
           "label": "break_advance",
-          "event": "",
+          "event": "keypress",
           "target": "",
           "filter": "Space"
         }
@@ -5198,7 +5198,7 @@
         }
       ],
       "title": "Fixation",
-      "_tab": "Behavior",
+      "_tab": "More",
       "correctResponse": "",
       "timeout": "500"
     },
