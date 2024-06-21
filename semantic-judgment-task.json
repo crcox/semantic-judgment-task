@@ -389,11 +389,11 @@
         {
           "title": "",
           "message": "",
-          "code": ""
+          "code": "const params = new Proxy(new URLSearchParams(window.location.search), {\r\n  get: (searchParams, prop) => searchParams.get(prop),\r\n});\r\nthis.data.prolific_pid = params.PROLIFIC_PID;\r\nthis.data.prolific_session_id = params.SESSION_ID;\r\nthis.data.prolific_study_id = params.STUDY_ID;"
         }
       ],
       "title": "Button press instructions",
-      "_tab": "Content"
+      "_tab": "Scripts"
     },
     "13": {
       "id": "13",
