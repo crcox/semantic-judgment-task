@@ -7,6 +7,8 @@
         "2",
         "3",
         "13",
+        "49",
+        "50",
         "46"
       ],
       "files": [],
@@ -311,1169 +313,6 @@
       "timeout": "3000",
       "correctResponse": "${this.parameters.is_concrete}"
     },
-    "4": {
-      "id": "4",
-      "type": "lab.flow.Loop",
-      "children": [
-        "5"
-      ],
-      "templateParameters": {
-        "columns": [
-          {
-            "name": "Word",
-            "type": "string"
-          },
-          {
-            "name": "is_concrete",
-            "type": "string"
-          }
-        ],
-        "rows": [
-          [
-            "abruptness",
-            "FALSE"
-          ],
-          [
-            "abstention",
-            "FALSE"
-          ],
-          [
-            "adjunct",
-            "FALSE"
-          ],
-          [
-            "affront",
-            "FALSE"
-          ],
-          [
-            "angst",
-            "FALSE"
-          ],
-          [
-            "anomaly",
-            "FALSE"
-          ],
-          [
-            "apocalypse",
-            "FALSE"
-          ],
-          [
-            "appeal",
-            "FALSE"
-          ],
-          [
-            "assessment",
-            "FALSE"
-          ],
-          [
-            "assurance",
-            "FALSE"
-          ],
-          [
-            "astrology",
-            "FALSE"
-          ],
-          [
-            "attention",
-            "FALSE"
-          ],
-          [
-            "betrayal",
-            "FALSE"
-          ],
-          [
-            "bourgeoisie",
-            "FALSE"
-          ],
-          [
-            "callousness",
-            "FALSE"
-          ],
-          [
-            "completion",
-            "FALSE"
-          ],
-          [
-            "concept",
-            "FALSE"
-          ],
-          [
-            "condition",
-            "FALSE"
-          ],
-          [
-            "convenience",
-            "FALSE"
-          ],
-          [
-            "credence",
-            "FALSE"
-          ],
-          [
-            "credibility",
-            "FALSE"
-          ],
-          [
-            "decadence",
-            "FALSE"
-          ],
-          [
-            "deception",
-            "FALSE"
-          ],
-          [
-            "depiction",
-            "FALSE"
-          ],
-          [
-            "desertion",
-            "FALSE"
-          ],
-          [
-            "dicey",
-            "FALSE"
-          ],
-          [
-            "dilemma",
-            "FALSE"
-          ],
-          [
-            "doom",
-            "FALSE"
-          ],
-          [
-            "duress",
-            "FALSE"
-          ],
-          [
-            "duty",
-            "FALSE"
-          ],
-          [
-            "elegance",
-            "FALSE"
-          ],
-          [
-            "enigma",
-            "FALSE"
-          ],
-          [
-            "euphemism",
-            "FALSE"
-          ],
-          [
-            "excellency",
-            "FALSE"
-          ],
-          [
-            "exertion",
-            "FALSE"
-          ],
-          [
-            "existence",
-            "FALSE"
-          ],
-          [
-            "fairness",
-            "FALSE"
-          ],
-          [
-            "fault",
-            "FALSE"
-          ],
-          [
-            "finality",
-            "FALSE"
-          ],
-          [
-            "fixation",
-            "FALSE"
-          ],
-          [
-            "fluctuation",
-            "FALSE"
-          ],
-          [
-            "fuss",
-            "FALSE"
-          ],
-          [
-            "gaffe",
-            "FALSE"
-          ],
-          [
-            "geriatrics",
-            "FALSE"
-          ],
-          [
-            "giddiness",
-            "FALSE"
-          ],
-          [
-            "gumption",
-            "FALSE"
-          ],
-          [
-            "heartbreak",
-            "FALSE"
-          ],
-          [
-            "humility",
-            "FALSE"
-          ],
-          [
-            "idiocy",
-            "FALSE"
-          ],
-          [
-            "immunity",
-            "FALSE"
-          ],
-          [
-            "interest",
-            "FALSE"
-          ],
-          [
-            "intuition",
-            "FALSE"
-          ],
-          [
-            "inversion",
-            "FALSE"
-          ],
-          [
-            "jubilee",
-            "FALSE"
-          ],
-          [
-            "judgment",
-            "FALSE"
-          ],
-          [
-            "liability",
-            "FALSE"
-          ],
-          [
-            "liberty",
-            "FALSE"
-          ],
-          [
-            "lifetime",
-            "FALSE"
-          ],
-          [
-            "longevity",
-            "FALSE"
-          ],
-          [
-            "lowbrow",
-            "FALSE"
-          ],
-          [
-            "lunacy",
-            "FALSE"
-          ],
-          [
-            "majesty",
-            "FALSE"
-          ],
-          [
-            "maleness",
-            "FALSE"
-          ],
-          [
-            "malice",
-            "FALSE"
-          ],
-          [
-            "manner",
-            "FALSE"
-          ],
-          [
-            "methodology",
-            "FALSE"
-          ],
-          [
-            "midweek",
-            "FALSE"
-          ],
-          [
-            "morale",
-            "FALSE"
-          ],
-          [
-            "morals",
-            "FALSE"
-          ],
-          [
-            "motive",
-            "FALSE"
-          ],
-          [
-            "neediness",
-            "FALSE"
-          ],
-          [
-            "niceness",
-            "FALSE"
-          ],
-          [
-            "offense",
-            "FALSE"
-          ],
-          [
-            "origin",
-            "FALSE"
-          ],
-          [
-            "outset",
-            "FALSE"
-          ],
-          [
-            "pardon",
-            "FALSE"
-          ],
-          [
-            "pause",
-            "FALSE"
-          ],
-          [
-            "perversity",
-            "FALSE"
-          ],
-          [
-            "phoniness",
-            "FALSE"
-          ],
-          [
-            "pomp",
-            "FALSE"
-          ],
-          [
-            "presumption",
-            "FALSE"
-          ],
-          [
-            "pride",
-            "FALSE"
-          ],
-          [
-            "prominence",
-            "FALSE"
-          ],
-          [
-            "promptness",
-            "FALSE"
-          ],
-          [
-            "prowess",
-            "FALSE"
-          ],
-          [
-            "qualifier",
-            "FALSE"
-          ],
-          [
-            "redemption",
-            "FALSE"
-          ],
-          [
-            "rendering",
-            "FALSE"
-          ],
-          [
-            "situation",
-            "FALSE"
-          ],
-          [
-            "someway",
-            "FALSE"
-          ],
-          [
-            "sterility",
-            "FALSE"
-          ],
-          [
-            "strategy",
-            "FALSE"
-          ],
-          [
-            "summation",
-            "FALSE"
-          ],
-          [
-            "thrill",
-            "FALSE"
-          ],
-          [
-            "undertone",
-            "FALSE"
-          ],
-          [
-            "upbringing",
-            "FALSE"
-          ],
-          [
-            "uprising",
-            "FALSE"
-          ],
-          [
-            "vow",
-            "FALSE"
-          ],
-          [
-            "weirdness",
-            "FALSE"
-          ],
-          [
-            "woe",
-            "FALSE"
-          ],
-          [
-            "anthropologist",
-            "TRUE"
-          ],
-          [
-            "apostrophe",
-            "TRUE"
-          ],
-          [
-            "breath",
-            "TRUE"
-          ],
-          [
-            "cascade",
-            "TRUE"
-          ],
-          [
-            "cleanness",
-            "TRUE"
-          ],
-          [
-            "collision",
-            "TRUE"
-          ],
-          [
-            "committee",
-            "TRUE"
-          ],
-          [
-            "confinement",
-            "TRUE"
-          ],
-          [
-            "country",
-            "TRUE"
-          ],
-          [
-            "ejector",
-            "TRUE"
-          ],
-          [
-            "entrails",
-            "TRUE"
-          ],
-          [
-            "footstep",
-            "TRUE"
-          ],
-          [
-            "freeloader",
-            "TRUE"
-          ],
-          [
-            "galley",
-            "TRUE"
-          ],
-          [
-            "gymnastics",
-            "TRUE"
-          ],
-          [
-            "honeymoon",
-            "TRUE"
-          ],
-          [
-            "hydrochloride",
-            "TRUE"
-          ],
-          [
-            "illustration",
-            "TRUE"
-          ],
-          [
-            "jig",
-            "TRUE"
-          ],
-          [
-            "junkie",
-            "TRUE"
-          ],
-          [
-            "karate",
-            "TRUE"
-          ],
-          [
-            "lacquer",
-            "TRUE"
-          ],
-          [
-            "lacrosse",
-            "TRUE"
-          ],
-          [
-            "mastectomy",
-            "TRUE"
-          ],
-          [
-            "matting",
-            "TRUE"
-          ],
-          [
-            "millions",
-            "TRUE"
-          ],
-          [
-            "monogram",
-            "TRUE"
-          ],
-          [
-            "nobleman",
-            "TRUE"
-          ],
-          [
-            "olympics",
-            "TRUE"
-          ],
-          [
-            "passageway",
-            "TRUE"
-          ],
-          [
-            "pueblo",
-            "TRUE"
-          ],
-          [
-            "sagebrush",
-            "TRUE"
-          ],
-          [
-            "scavenger",
-            "TRUE"
-          ],
-          [
-            "shipment",
-            "TRUE"
-          ],
-          [
-            "stampede",
-            "TRUE"
-          ],
-          [
-            "wintertime",
-            "TRUE"
-          ],
-          [
-            "angler",
-            "TRUE"
-          ],
-          [
-            "arches",
-            "TRUE"
-          ],
-          [
-            "assassin",
-            "TRUE"
-          ],
-          [
-            "barnacle",
-            "TRUE"
-          ],
-          [
-            "castle",
-            "TRUE"
-          ],
-          [
-            "chairperson",
-            "TRUE"
-          ],
-          [
-            "chipmunk",
-            "TRUE"
-          ],
-          [
-            "clergy",
-            "TRUE"
-          ],
-          [
-            "converter",
-            "TRUE"
-          ],
-          [
-            "cyclist",
-            "TRUE"
-          ],
-          [
-            "fiber",
-            "TRUE"
-          ],
-          [
-            "grandniece",
-            "TRUE"
-          ],
-          [
-            "gunsmith",
-            "TRUE"
-          ],
-          [
-            "haymaker",
-            "TRUE"
-          ],
-          [
-            "heiress",
-            "TRUE"
-          ],
-          [
-            "icehouse",
-            "TRUE"
-          ],
-          [
-            "island",
-            "TRUE"
-          ],
-          [
-            "kennel",
-            "TRUE"
-          ],
-          [
-            "landscape",
-            "TRUE"
-          ],
-          [
-            "magician",
-            "TRUE"
-          ],
-          [
-            "magnifier",
-            "TRUE"
-          ],
-          [
-            "opiate",
-            "TRUE"
-          ],
-          [
-            "orangutan",
-            "TRUE"
-          ],
-          [
-            "outhouse",
-            "TRUE"
-          ],
-          [
-            "phonograph",
-            "TRUE"
-          ],
-          [
-            "prankster",
-            "TRUE"
-          ],
-          [
-            "precipitation",
-            "TRUE"
-          ],
-          [
-            "register",
-            "TRUE"
-          ],
-          [
-            "schoolmaster",
-            "TRUE"
-          ],
-          [
-            "scratches",
-            "TRUE"
-          ],
-          [
-            "swordsman",
-            "TRUE"
-          ],
-          [
-            "violinist",
-            "TRUE"
-          ],
-          [
-            "whirlpool",
-            "TRUE"
-          ],
-          [
-            "beer",
-            "TRUE"
-          ],
-          [
-            "bicep",
-            "TRUE"
-          ],
-          [
-            "blackhead",
-            "TRUE"
-          ],
-          [
-            "blouse",
-            "TRUE"
-          ],
-          [
-            "calender",
-            "TRUE"
-          ],
-          [
-            "chowder",
-            "TRUE"
-          ],
-          [
-            "corkscrew",
-            "TRUE"
-          ],
-          [
-            "cushion",
-            "TRUE"
-          ],
-          [
-            "daybed",
-            "TRUE"
-          ],
-          [
-            "drawers",
-            "TRUE"
-          ],
-          [
-            "grandma",
-            "TRUE"
-          ],
-          [
-            "grapevine",
-            "TRUE"
-          ],
-          [
-            "matchstick",
-            "TRUE"
-          ],
-          [
-            "merchandise",
-            "TRUE"
-          ],
-          [
-            "painkiller",
-            "TRUE"
-          ],
-          [
-            "pinwheel",
-            "TRUE"
-          ],
-          [
-            "pumpkin",
-            "TRUE"
-          ],
-          [
-            "pushcart",
-            "TRUE"
-          ],
-          [
-            "satchel",
-            "TRUE"
-          ],
-          [
-            "scrapbook",
-            "TRUE"
-          ],
-          [
-            "screwdriver",
-            "TRUE"
-          ],
-          [
-            "sherbet",
-            "TRUE"
-          ],
-          [
-            "speakers",
-            "TRUE"
-          ],
-          [
-            "stocking",
-            "TRUE"
-          ],
-          [
-            "streetwalker",
-            "TRUE"
-          ],
-          [
-            "strings",
-            "TRUE"
-          ],
-          [
-            "therapist",
-            "TRUE"
-          ],
-          [
-            "tourniquet",
-            "TRUE"
-          ],
-          [
-            "trailer",
-            "TRUE"
-          ],
-          [
-            "triceps",
-            "TRUE"
-          ],
-          [
-            "underclothing",
-            "TRUE"
-          ]
-        ]
-      },
-      "sample": {
-        "mode": "draw-shuffle"
-      },
-      "files": [],
-      "responses": [
-        {
-          "label": "",
-          "event": "",
-          "target": "",
-          "filter": ""
-        }
-      ],
-      "parameters": [
-        {
-          "name": "",
-          "value": "",
-          "type": "string"
-        }
-      ],
-      "messageHandlers": [
-        {
-          "title": "",
-          "message": "",
-          "code": ""
-        }
-      ],
-      "title": "Trial Loop B",
-      "indexParameter": "trial_number"
-    },
-    "5": {
-      "id": "5",
-      "type": "lab.flow.Sequence",
-      "children": [
-        "6",
-        "7"
-      ],
-      "files": [],
-      "responses": [
-        {
-          "label": "",
-          "event": "",
-          "target": "",
-          "filter": ""
-        }
-      ],
-      "parameters": [
-        {
-          "name": "",
-          "value": "",
-          "type": "string"
-        }
-      ],
-      "messageHandlers": [
-        {
-          "title": "",
-          "message": "",
-          "code": ""
-        }
-      ],
-      "title": "Trials"
-    },
-    "6": {
-      "id": "6",
-      "type": "lab.canvas.Screen",
-      "content": [
-        {
-          "type": "line",
-          "version": "4.3.1",
-          "originX": "center",
-          "originY": "center",
-          "left": 0,
-          "top": "-30",
-          "width": 100,
-          "height": 0,
-          "fill": "rgb(0,0,0)",
-          "stroke": "black",
-          "strokeWidth": 1,
-          "strokeDashArray": null,
-          "strokeLineCap": "butt",
-          "strokeDashOffset": 0,
-          "strokeLineJoin": "round",
-          "strokeUniform": false,
-          "strokeMiterLimit": 4,
-          "scaleX": 1,
-          "scaleY": 1,
-          "angle": 0,
-          "flipX": false,
-          "flipY": false,
-          "opacity": 1,
-          "shadow": null,
-          "visible": true,
-          "backgroundColor": "",
-          "fillRule": "nonzero",
-          "paintFirst": "fill",
-          "globalCompositeOperation": "source-over",
-          "skewX": 0,
-          "skewY": 0,
-          "id": "23",
-          "x1": -50,
-          "x2": 50,
-          "y1": 0,
-          "y2": 0
-        },
-        {
-          "type": "line",
-          "version": "4.3.1",
-          "originX": "center",
-          "originY": "center",
-          "left": 0,
-          "top": "30",
-          "width": 100,
-          "height": 0,
-          "fill": "rgb(0,0,0)",
-          "stroke": "black",
-          "strokeWidth": 1,
-          "strokeDashArray": null,
-          "strokeLineCap": "butt",
-          "strokeDashOffset": 0,
-          "strokeLineJoin": "round",
-          "strokeUniform": false,
-          "strokeMiterLimit": 4,
-          "scaleX": 1,
-          "scaleY": 1,
-          "angle": 0,
-          "flipX": false,
-          "flipY": false,
-          "opacity": 1,
-          "shadow": null,
-          "visible": true,
-          "backgroundColor": "",
-          "fillRule": "nonzero",
-          "paintFirst": "fill",
-          "globalCompositeOperation": "source-over",
-          "skewX": 0,
-          "skewY": 0,
-          "id": "24",
-          "x1": -50,
-          "x2": 50,
-          "y1": 0,
-          "y2": 0
-        }
-      ],
-      "viewport": [
-        800,
-        600
-      ],
-      "files": [],
-      "responses": [
-        {
-          "label": "",
-          "event": "",
-          "target": "",
-          "filter": ""
-        }
-      ],
-      "parameters": [
-        {
-          "name": "",
-          "value": "",
-          "type": "string"
-        }
-      ],
-      "messageHandlers": [
-        {
-          "title": "",
-          "message": "",
-          "code": ""
-        }
-      ],
-      "title": "Fixation",
-      "_tab": "Behavior",
-      "timeout": "500"
-    },
-    "7": {
-      "id": "7",
-      "type": "lab.canvas.Screen",
-      "content": [
-        {
-          "type": "i-text",
-          "version": "4.3.1",
-          "originX": "center",
-          "originY": "center",
-          "left": 0,
-          "top": 0,
-          "width": 337.95,
-          "height": 36.16,
-          "fill": "black",
-          "stroke": null,
-          "strokeWidth": 1,
-          "strokeDashArray": null,
-          "strokeLineCap": "butt",
-          "strokeDashOffset": 0,
-          "strokeLineJoin": "round",
-          "strokeUniform": false,
-          "strokeMiterLimit": 4,
-          "scaleX": 1,
-          "scaleY": 1,
-          "angle": 0,
-          "flipX": false,
-          "flipY": false,
-          "opacity": 1,
-          "shadow": null,
-          "visible": true,
-          "backgroundColor": "",
-          "fillRule": "nonzero",
-          "paintFirst": "fill",
-          "globalCompositeOperation": "source-over",
-          "skewX": 0,
-          "skewY": 0,
-          "text": "${this.parameters.word}",
-          "fontSize": 32,
-          "fontWeight": "normal",
-          "fontFamily": "sans-serif",
-          "fontStyle": "normal",
-          "lineHeight": 1.16,
-          "underline": false,
-          "overline": false,
-          "linethrough": false,
-          "textAlign": "center",
-          "textBackgroundColor": "",
-          "charSpacing": 0,
-          "id": "4",
-          "styles": {}
-        },
-        {
-          "type": "line",
-          "version": "4.3.1",
-          "originX": "center",
-          "originY": "center",
-          "left": 0,
-          "top": "-30",
-          "width": 100,
-          "height": 0,
-          "fill": "rgb(0,0,0)",
-          "stroke": "black",
-          "strokeWidth": 1,
-          "strokeDashArray": null,
-          "strokeLineCap": "butt",
-          "strokeDashOffset": 0,
-          "strokeLineJoin": "round",
-          "strokeUniform": false,
-          "strokeMiterLimit": 4,
-          "scaleX": 1,
-          "scaleY": 1,
-          "angle": 0,
-          "flipX": false,
-          "flipY": false,
-          "opacity": 1,
-          "shadow": null,
-          "visible": true,
-          "backgroundColor": "",
-          "fillRule": "nonzero",
-          "paintFirst": "fill",
-          "globalCompositeOperation": "source-over",
-          "skewX": 0,
-          "skewY": 0,
-          "id": "25",
-          "x1": -50,
-          "x2": 50,
-          "y1": 0,
-          "y2": 0
-        },
-        {
-          "type": "line",
-          "version": "4.3.1",
-          "originX": "center",
-          "originY": "center",
-          "left": 0,
-          "top": "30",
-          "width": 100,
-          "height": 0,
-          "fill": "rgb(0,0,0)",
-          "stroke": "black",
-          "strokeWidth": 1,
-          "strokeDashArray": null,
-          "strokeLineCap": "butt",
-          "strokeDashOffset": 0,
-          "strokeLineJoin": "round",
-          "strokeUniform": false,
-          "strokeMiterLimit": 4,
-          "scaleX": 1,
-          "scaleY": 1,
-          "angle": 0,
-          "flipX": false,
-          "flipY": false,
-          "opacity": 1,
-          "shadow": null,
-          "visible": true,
-          "backgroundColor": "",
-          "fillRule": "nonzero",
-          "paintFirst": "fill",
-          "globalCompositeOperation": "source-over",
-          "skewX": 0,
-          "skewY": 0,
-          "id": "26",
-          "x1": -50,
-          "x2": 50,
-          "y1": 0,
-          "y2": 0
-        }
-      ],
-      "viewport": [
-        800,
-        600
-      ],
-      "files": [],
-      "responses": [
-        {
-          "label": "TRUE",
-          "event": "keypress",
-          "target": "",
-          "filter": "m"
-        },
-        {
-          "label": "FALSE",
-          "event": "keypress",
-          "filter": "z"
-        },
-        {
-          "label": "unknown",
-          "event": "keypress",
-          "filter": "Space"
-        }
-      ],
-      "parameters": [
-        {
-          "name": "",
-          "value": "",
-          "type": "string"
-        }
-      ],
-      "messageHandlers": [
-        {
-          "title": "",
-          "message": "",
-          "code": ""
-        }
-      ],
-      "title": "Trial",
-      "_tab": "Behavior",
-      "timeout": "3000",
-      "correctResponse": "${this.parameters.is_concrete}"
-    },
     "8": {
       "id": "8",
       "type": "lab.canvas.Screen",
@@ -1555,855 +394,6 @@
       ],
       "title": "Button press instructions",
       "_tab": "Content"
-    },
-    "10": {
-      "id": "10",
-      "type": "lab.flow.Loop",
-      "children": [
-        "20"
-      ],
-      "templateParameters": {
-        "columns": [
-          {
-            "name": "Word",
-            "type": "string"
-          },
-          {
-            "name": "is_concrete",
-            "type": "string"
-          }
-        ],
-        "rows": [
-          [
-            "acceptance",
-            "FALSE"
-          ],
-          [
-            "accord",
-            "FALSE"
-          ],
-          [
-            "activation",
-            "FALSE"
-          ],
-          [
-            "advancement",
-            "FALSE"
-          ],
-          [
-            "agony",
-            "FALSE"
-          ],
-          [
-            "amorality",
-            "FALSE"
-          ],
-          [
-            "anonymity",
-            "FALSE"
-          ],
-          [
-            "aspect",
-            "FALSE"
-          ],
-          [
-            "avoidance",
-            "FALSE"
-          ],
-          [
-            "breakup",
-            "FALSE"
-          ],
-          [
-            "casualness",
-            "FALSE"
-          ],
-          [
-            "causation",
-            "FALSE"
-          ],
-          [
-            "cause",
-            "FALSE"
-          ],
-          [
-            "caution",
-            "FALSE"
-          ],
-          [
-            "comparison",
-            "FALSE"
-          ],
-          [
-            "concordance",
-            "FALSE"
-          ],
-          [
-            "condemnation",
-            "FALSE"
-          ],
-          [
-            "craziness",
-            "FALSE"
-          ],
-          [
-            "curate",
-            "FALSE"
-          ],
-          [
-            "default",
-            "FALSE"
-          ],
-          [
-            "depravity",
-            "FALSE"
-          ],
-          [
-            "diplomacy",
-            "FALSE"
-          ],
-          [
-            "disarray",
-            "FALSE"
-          ],
-          [
-            "discomfort",
-            "FALSE"
-          ],
-          [
-            "dissenter",
-            "FALSE"
-          ],
-          [
-            "distemper",
-            "FALSE"
-          ],
-          [
-            "domineer",
-            "FALSE"
-          ],
-          [
-            "drudgery",
-            "FALSE"
-          ],
-          [
-            "dynasty",
-            "FALSE"
-          ],
-          [
-            "ego",
-            "FALSE"
-          ],
-          [
-            "elation",
-            "FALSE"
-          ],
-          [
-            "equity",
-            "FALSE"
-          ],
-          [
-            "falsehood",
-            "FALSE"
-          ],
-          [
-            "fanaticism",
-            "FALSE"
-          ],
-          [
-            "fascination",
-            "FALSE"
-          ],
-          [
-            "futility",
-            "FALSE"
-          ],
-          [
-            "geopolitics",
-            "FALSE"
-          ],
-          [
-            "governance",
-            "FALSE"
-          ],
-          [
-            "graciousness",
-            "FALSE"
-          ],
-          [
-            "hatred",
-            "FALSE"
-          ],
-          [
-            "hesitance",
-            "FALSE"
-          ],
-          [
-            "hindsight",
-            "FALSE"
-          ],
-          [
-            "homey",
-            "FALSE"
-          ],
-          [
-            "humor",
-            "FALSE"
-          ],
-          [
-            "husbandry",
-            "FALSE"
-          ],
-          [
-            "hysterics",
-            "FALSE"
-          ],
-          [
-            "illegality",
-            "FALSE"
-          ],
-          [
-            "illiteracy",
-            "FALSE"
-          ],
-          [
-            "imagery",
-            "FALSE"
-          ],
-          [
-            "info",
-            "FALSE"
-          ],
-          [
-            "intensifier",
-            "FALSE"
-          ],
-          [
-            "interlude",
-            "FALSE"
-          ],
-          [
-            "intonation",
-            "FALSE"
-          ],
-          [
-            "jarring",
-            "FALSE"
-          ],
-          [
-            "jinx",
-            "FALSE"
-          ],
-          [
-            "kudos",
-            "FALSE"
-          ],
-          [
-            "lack",
-            "FALSE"
-          ],
-          [
-            "legacy",
-            "FALSE"
-          ],
-          [
-            "libel",
-            "FALSE"
-          ],
-          [
-            "likelihood",
-            "FALSE"
-          ],
-          [
-            "malcontent",
-            "FALSE"
-          ],
-          [
-            "metaphor",
-            "FALSE"
-          ],
-          [
-            "misdeed",
-            "FALSE"
-          ],
-          [
-            "mystique",
-            "FALSE"
-          ],
-          [
-            "naivete",
-            "FALSE"
-          ],
-          [
-            "obscenity",
-            "FALSE"
-          ],
-          [
-            "oddity",
-            "FALSE"
-          ],
-          [
-            "outrage",
-            "FALSE"
-          ],
-          [
-            "prejudice",
-            "FALSE"
-          ],
-          [
-            "prospect",
-            "FALSE"
-          ],
-          [
-            "queasiness",
-            "FALSE"
-          ],
-          [
-            "rashness",
-            "FALSE"
-          ],
-          [
-            "reaction",
-            "FALSE"
-          ],
-          [
-            "realness",
-            "FALSE"
-          ],
-          [
-            "receptivity",
-            "FALSE"
-          ],
-          [
-            "reckoning",
-            "FALSE"
-          ],
-          [
-            "relief",
-            "FALSE"
-          ],
-          [
-            "respect",
-            "FALSE"
-          ],
-          [
-            "rightness",
-            "FALSE"
-          ],
-          [
-            "schemer",
-            "FALSE"
-          ],
-          [
-            "secrecy",
-            "FALSE"
-          ],
-          [
-            "selection",
-            "FALSE"
-          ],
-          [
-            "seniority",
-            "FALSE"
-          ],
-          [
-            "simile",
-            "FALSE"
-          ],
-          [
-            "simplification",
-            "FALSE"
-          ],
-          [
-            "soundness",
-            "FALSE"
-          ],
-          [
-            "spidery",
-            "FALSE"
-          ],
-          [
-            "starvation",
-            "FALSE"
-          ],
-          [
-            "sustenance",
-            "FALSE"
-          ],
-          [
-            "tenure",
-            "FALSE"
-          ],
-          [
-            "tolerance",
-            "FALSE"
-          ],
-          [
-            "transferral",
-            "FALSE"
-          ],
-          [
-            "trendiness",
-            "FALSE"
-          ],
-          [
-            "turnoff",
-            "FALSE"
-          ],
-          [
-            "unfairness",
-            "FALSE"
-          ],
-          [
-            "urge",
-            "FALSE"
-          ],
-          [
-            "velocity",
-            "FALSE"
-          ],
-          [
-            "vicinity",
-            "FALSE"
-          ],
-          [
-            "wickedness",
-            "FALSE"
-          ],
-          [
-            "witchery",
-            "FALSE"
-          ],
-          [
-            "bogey",
-            "TRUE"
-          ],
-          [
-            "borehole",
-            "TRUE"
-          ],
-          [
-            "bunghole",
-            "TRUE"
-          ],
-          [
-            "cannibal",
-            "TRUE"
-          ],
-          [
-            "cartwheel",
-            "TRUE"
-          ],
-          [
-            "channel",
-            "TRUE"
-          ],
-          [
-            "chlorophyll",
-            "TRUE"
-          ],
-          [
-            "clang",
-            "TRUE"
-          ],
-          [
-            "county",
-            "TRUE"
-          ],
-          [
-            "downpour",
-            "TRUE"
-          ],
-          [
-            "featherweight",
-            "TRUE"
-          ],
-          [
-            "forger",
-            "TRUE"
-          ],
-          [
-            "funeral",
-            "TRUE"
-          ],
-          [
-            "growler",
-            "TRUE"
-          ],
-          [
-            "height",
-            "TRUE"
-          ],
-          [
-            "hemisphere",
-            "TRUE"
-          ],
-          [
-            "heroine",
-            "TRUE"
-          ],
-          [
-            "hobgoblin",
-            "TRUE"
-          ],
-          [
-            "infantry",
-            "TRUE"
-          ],
-          [
-            "laryngitis",
-            "TRUE"
-          ],
-          [
-            "menthol",
-            "TRUE"
-          ],
-          [
-            "nodule",
-            "TRUE"
-          ],
-          [
-            "oriole",
-            "TRUE"
-          ],
-          [
-            "pageant",
-            "TRUE"
-          ],
-          [
-            "printing",
-            "TRUE"
-          ],
-          [
-            "respiration",
-            "TRUE"
-          ],
-          [
-            "seabed",
-            "TRUE"
-          ],
-          [
-            "sleet",
-            "TRUE"
-          ],
-          [
-            "spotlight",
-            "TRUE"
-          ],
-          [
-            "taster",
-            "TRUE"
-          ],
-          [
-            "transcript",
-            "TRUE"
-          ],
-          [
-            "uppercut",
-            "TRUE"
-          ],
-          [
-            "warhorse",
-            "TRUE"
-          ],
-          [
-            "watermark",
-            "TRUE"
-          ],
-          [
-            "airliner",
-            "TRUE"
-          ],
-          [
-            "anchovy",
-            "TRUE"
-          ],
-          [
-            "banner",
-            "TRUE"
-          ],
-          [
-            "botanist",
-            "TRUE"
-          ],
-          [
-            "caricaturist",
-            "TRUE"
-          ],
-          [
-            "chandelier",
-            "TRUE"
-          ],
-          [
-            "classroom",
-            "TRUE"
-          ],
-          [
-            "defendant",
-            "TRUE"
-          ],
-          [
-            "fencer",
-            "TRUE"
-          ],
-          [
-            "foxhound",
-            "TRUE"
-          ],
-          [
-            "graveyard",
-            "TRUE"
-          ],
-          [
-            "horsehair",
-            "TRUE"
-          ],
-          [
-            "insole",
-            "TRUE"
-          ],
-          [
-            "landmine",
-            "TRUE"
-          ],
-          [
-            "lather",
-            "TRUE"
-          ],
-          [
-            "officer",
-            "TRUE"
-          ],
-          [
-            "orator",
-            "TRUE"
-          ],
-          [
-            "orthodontics",
-            "TRUE"
-          ],
-          [
-            "paratrooper",
-            "TRUE"
-          ],
-          [
-            "periscope",
-            "TRUE"
-          ],
-          [
-            "polygamist",
-            "TRUE"
-          ],
-          [
-            "prong",
-            "TRUE"
-          ],
-          [
-            "rickshaw",
-            "TRUE"
-          ],
-          [
-            "shopper",
-            "TRUE"
-          ],
-          [
-            "silversmith",
-            "TRUE"
-          ],
-          [
-            "steroids",
-            "TRUE"
-          ],
-          [
-            "stovepipe",
-            "TRUE"
-          ],
-          [
-            "tailgate",
-            "TRUE"
-          ],
-          [
-            "blackberry",
-            "TRUE"
-          ],
-          [
-            "blackboard",
-            "TRUE"
-          ],
-          [
-            "blowtorch",
-            "TRUE"
-          ],
-          [
-            "cauliflower",
-            "TRUE"
-          ],
-          [
-            "cheerleader",
-            "TRUE"
-          ],
-          [
-            "chessboard",
-            "TRUE"
-          ],
-          [
-            "conditioner",
-            "TRUE"
-          ],
-          [
-            "cymbals",
-            "TRUE"
-          ],
-          [
-            "dictionary",
-            "TRUE"
-          ],
-          [
-            "dipper",
-            "TRUE"
-          ],
-          [
-            "encyclopedia",
-            "TRUE"
-          ],
-          [
-            "fryer",
-            "TRUE"
-          ],
-          [
-            "grandchild",
-            "TRUE"
-          ],
-          [
-            "house",
-            "TRUE"
-          ],
-          [
-            "joystick",
-            "TRUE"
-          ],
-          [
-            "junk",
-            "TRUE"
-          ],
-          [
-            "mayonnaise",
-            "TRUE"
-          ],
-          [
-            "medallion",
-            "TRUE"
-          ],
-          [
-            "mistress",
-            "TRUE"
-          ],
-          [
-            "oilcan",
-            "TRUE"
-          ],
-          [
-            "pebble",
-            "TRUE"
-          ],
-          [
-            "pitcher",
-            "TRUE"
-          ],
-          [
-            "postmaster",
-            "TRUE"
-          ],
-          [
-            "receipt",
-            "TRUE"
-          ],
-          [
-            "revolver",
-            "TRUE"
-          ],
-          [
-            "rhubarb",
-            "TRUE"
-          ],
-          [
-            "sketchpad",
-            "TRUE"
-          ],
-          [
-            "stair",
-            "TRUE"
-          ],
-          [
-            "stepsister",
-            "TRUE"
-          ],
-          [
-            "storekeeper",
-            "TRUE"
-          ],
-          [
-            "strainer",
-            "TRUE"
-          ],
-          [
-            "throat",
-            "TRUE"
-          ],
-          [
-            "trainer",
-            "TRUE"
-          ],
-          [
-            "traveler",
-            "TRUE"
-          ],
-          [
-            "trousers",
-            "TRUE"
-          ],
-          [
-            "valve",
-            "TRUE"
-          ],
-          [
-            "wallpaper",
-            "TRUE"
-          ],
-          [
-            "walrus",
-            "TRUE"
-          ]
-        ]
-      },
-      "sample": {
-        "mode": "draw-shuffle"
-      },
-      "files": [],
-      "responses": [
-        {
-          "label": "",
-          "event": "",
-          "target": "",
-          "filter": ""
-        }
-      ],
-      "parameters": [
-        {
-          "name": "",
-          "value": "",
-          "type": "string"
-        }
-      ],
-      "messageHandlers": [
-        {
-          "title": "",
-          "message": "",
-          "code": ""
-        }
-      ],
-      "title": "Trial Loop C",
-      "indexParameter": "trial_number"
     },
     "13": {
       "id": "13",
@@ -2668,7 +658,7 @@
       "title": "Feedback concrete",
       "_tab": "Behavior",
       "tardy": true,
-      "skipCondition": "${this.parameters.is_concrete == false || this.state.correct == true }",
+      "skipCondition": "${this.parameters.is_concrete == false || this.state.correct == true || this.state.response == \"unknown\" }",
       "timeout": "2000"
     },
     "14": {
@@ -3072,11 +1062,12 @@
       "id": "18",
       "type": "lab.flow.Sequence",
       "children": [
-        "19",
-        "23",
-        "4",
-        "24",
-        "10"
+        "51",
+        "76",
+        "70",
+        "64",
+        "58",
+        "52"
       ],
       "files": [],
       "responses": [
@@ -3102,8 +1093,8 @@
         }
       ],
       "title": "Trial Blocks",
-      "shuffle": false,
-      "_tab": "Behavior"
+      "shuffle": true,
+      "_tab": "Content"
     },
     "19": {
       "id": "19",
@@ -3124,27 +1115,19 @@
         ],
         "rows": [
           [
+            "acceptance",
+            "FALSE"
+          ],
+          [
             "affection",
             "FALSE"
           ],
           [
-            "alliteration",
+            "agony",
             "FALSE"
           ],
           [
-            "allure",
-            "FALSE"
-          ],
-          [
-            "amazement",
-            "FALSE"
-          ],
-          [
-            "apparition",
-            "FALSE"
-          ],
-          [
-            "assertion",
+            "astrology",
             "FALSE"
           ],
           [
@@ -3152,83 +1135,35 @@
             "FALSE"
           ],
           [
-            "benediction",
+            "casualness",
             "FALSE"
           ],
           [
-            "benefit",
+            "cause",
             "FALSE"
           ],
           [
-            "breadth",
+            "convenience",
             "FALSE"
           ],
           [
-            "camaraderie",
+            "credence",
             "FALSE"
           ],
           [
-            "candidacy",
+            "credibility",
             "FALSE"
           ],
           [
-            "caving",
+            "dicey",
             "FALSE"
           ],
           [
-            "chance",
+            "disarray",
             "FALSE"
           ],
           [
-            "comeback",
-            "FALSE"
-          ],
-          [
-            "compliance",
-            "FALSE"
-          ],
-          [
-            "consent",
-            "FALSE"
-          ],
-          [
-            "contempt",
-            "FALSE"
-          ],
-          [
-            "continuity",
-            "FALSE"
-          ],
-          [
-            "creation",
-            "FALSE"
-          ],
-          [
-            "curiosity",
-            "FALSE"
-          ],
-          [
-            "cynicism",
-            "FALSE"
-          ],
-          [
-            "damnation",
-            "FALSE"
-          ],
-          [
-            "defect",
-            "FALSE"
-          ],
-          [
-            "desire",
-            "FALSE"
-          ],
-          [
-            "disappointment",
-            "FALSE"
-          ],
-          [
-            "disinterest",
+            "dissenter",
             "FALSE"
           ],
           [
@@ -3240,55 +1175,35 @@
             "FALSE"
           ],
           [
-            "doings",
+            "domineer",
             "FALSE"
           ],
           [
-            "dread",
+            "duty",
             "FALSE"
           ],
           [
-            "egoism",
+            "elation",
             "FALSE"
           ],
           [
-            "eloquence",
+            "fuss",
             "FALSE"
           ],
           [
-            "expertise",
+            "futility",
             "FALSE"
           ],
           [
-            "exposure",
+            "graciousness",
             "FALSE"
           ],
           [
-            "extermination",
+            "humility",
             "FALSE"
           ],
           [
-            "federation",
-            "FALSE"
-          ],
-          [
-            "forte",
-            "FALSE"
-          ],
-          [
-            "health",
-            "FALSE"
-          ],
-          [
-            "heresy",
-            "FALSE"
-          ],
-          [
-            "heyday",
-            "FALSE"
-          ],
-          [
-            "ignoramus",
+            "illegality",
             "FALSE"
           ],
           [
@@ -3296,39 +1211,19 @@
             "FALSE"
           ],
           [
-            "inertness",
+            "interest",
             "FALSE"
           ],
           [
-            "infinitive",
+            "intuition",
             "FALSE"
           ],
           [
-            "instinct",
+            "inversion",
             "FALSE"
           ],
           [
-            "intention",
-            "FALSE"
-          ],
-          [
-            "justification",
-            "FALSE"
-          ],
-          [
-            "kinetics",
-            "FALSE"
-          ],
-          [
-            "lesbianism",
-            "FALSE"
-          ],
-          [
-            "letdown",
-            "FALSE"
-          ],
-          [
-            "lingo",
+            "judgment",
             "FALSE"
           ],
           [
@@ -3336,15 +1231,11 @@
             "FALSE"
           ],
           [
-            "loss",
+            "majesty",
             "FALSE"
           ],
           [
-            "manifestation",
-            "FALSE"
-          ],
-          [
-            "marxism",
+            "manner",
             "FALSE"
           ],
           [
@@ -3356,7 +1247,7 @@
             "FALSE"
           ],
           [
-            "miracle",
+            "misdeed",
             "FALSE"
           ],
           [
@@ -3364,95 +1255,47 @@
             "FALSE"
           ],
           [
-            "mistake",
-            "FALSE"
-          ],
-          [
-            "mockery",
-            "FALSE"
-          ],
-          [
-            "motif",
-            "FALSE"
-          ],
-          [
             "nationalist",
             "FALSE"
           ],
           [
-            "negation",
+            "neediness",
             "FALSE"
           ],
           [
-            "oversight",
+            "obscenity",
             "FALSE"
           ],
           [
-            "peacetime",
+            "oddity",
             "FALSE"
           ],
           [
-            "penance",
+            "outset",
             "FALSE"
           ],
           [
-            "persuasion",
+            "pardon",
             "FALSE"
           ],
           [
-            "plainness",
+            "phoniness",
             "FALSE"
           ],
           [
-            "prodigal",
+            "queasiness",
             "FALSE"
           ],
           [
-            "prognosis",
+            "receptivity",
             "FALSE"
           ],
           [
-            "psychology",
+            "relief",
             "FALSE"
           ],
           [
-            "pureblood",
-            "FALSE"
-          ],
-          [
-            "quirk",
-            "FALSE"
-          ],
-          [
-            "rawness",
-            "FALSE"
-          ],
-          [
-            "reconciliation",
-            "FALSE"
-          ],
-          [
-            "refinement",
-            "FALSE"
-          ],
-          [
-            "reformer",
-            "FALSE"
-          ],
-          [
-            "reign",
-            "FALSE"
-          ],
-          [
-            "religion",
-            "FALSE"
-          ],
-          [
-            "reminder",
-            "FALSE"
-          ],
-          [
-            "repute",
+            "rendering",
             "FALSE"
           ],
           [
@@ -3460,79 +1303,19 @@
             "FALSE"
           ],
           [
-            "revisionist",
-            "FALSE"
-          ],
-          [
-            "romance",
-            "FALSE"
-          ],
-          [
-            "ruling",
-            "FALSE"
-          ],
-          [
-            "scheme",
-            "FALSE"
-          ],
-          [
-            "sensibility",
-            "FALSE"
-          ],
-          [
-            "solitude",
-            "FALSE"
-          ],
-          [
-            "spirit",
-            "FALSE"
-          ],
-          [
             "strangeness",
             "FALSE"
           ],
           [
-            "subjectivity",
+            "summation",
             "FALSE"
           ],
           [
-            "supposition",
+            "undertone",
             "FALSE"
           ],
           [
-            "tactics",
-            "FALSE"
-          ],
-          [
-            "taker",
-            "FALSE"
-          ],
-          [
-            "tenderness",
-            "FALSE"
-          ],
-          [
-            "uplift",
-            "FALSE"
-          ],
-          [
-            "veneration",
-            "FALSE"
-          ],
-          [
-            "vulgarity",
-            "FALSE"
-          ],
-          [
-            "barnyard",
-            "TRUE"
-          ],
-          [
-            "bobtail",
-            "TRUE"
-          ],
-          [
-            "combustion",
+            "confinement",
             "TRUE"
           ],
           [
@@ -3544,23 +1327,15 @@
             "TRUE"
           ],
           [
-            "ebony",
+            "galley",
             "TRUE"
           ],
           [
-            "flagship",
+            "gymnastics",
             "TRUE"
           ],
           [
-            "flock",
-            "TRUE"
-          ],
-          [
-            "hypothermia",
-            "TRUE"
-          ],
-          [
-            "interpreter",
+            "karate",
             "TRUE"
           ],
           [
@@ -3568,19 +1343,11 @@
             "TRUE"
           ],
           [
-            "laceration",
+            "lacrosse",
             "TRUE"
           ],
           [
-            "lighting",
-            "TRUE"
-          ],
-          [
-            "mourner",
-            "TRUE"
-          ],
-          [
-            "negotiator",
+            "millions",
             "TRUE"
           ],
           [
@@ -3588,23 +1355,11 @@
             "TRUE"
           ],
           [
+            "nobleman",
+            "TRUE"
+          ],
+          [
             "observer",
-            "TRUE"
-          ],
-          [
-            "outback",
-            "TRUE"
-          ],
-          [
-            "peddler",
-            "TRUE"
-          ],
-          [
-            "pentagram",
-            "TRUE"
-          ],
-          [
-            "pinstripe",
             "TRUE"
           ],
           [
@@ -3612,11 +1367,15 @@
             "TRUE"
           ],
           [
-            "provider",
+            "robbery",
             "TRUE"
           ],
           [
-            "robbery",
+            "scavenger",
+            "TRUE"
+          ],
+          [
+            "sleet",
             "TRUE"
           ],
           [
@@ -3624,11 +1383,7 @@
             "TRUE"
           ],
           [
-            "speakeasy",
-            "TRUE"
-          ],
-          [
-            "stamen",
+            "spotlight",
             "TRUE"
           ],
           [
@@ -3636,51 +1391,15 @@
             "TRUE"
           ],
           [
-            "suite",
-            "TRUE"
-          ],
-          [
             "supernova",
             "TRUE"
           ],
           [
-            "antelope",
+            "anchovy",
             "TRUE"
           ],
           [
-            "bellhop",
-            "TRUE"
-          ],
-          [
-            "bombardier",
-            "TRUE"
-          ],
-          [
-            "bulletin",
-            "TRUE"
-          ],
-          [
-            "chronometer",
-            "TRUE"
-          ],
-          [
-            "coolant",
-            "TRUE"
-          ],
-          [
-            "dashboard",
-            "TRUE"
-          ],
-          [
-            "deliverer",
-            "TRUE"
-          ],
-          [
-            "excavator",
-            "TRUE"
-          ],
-          [
-            "florist",
+            "foxhound",
             "TRUE"
           ],
           [
@@ -3688,35 +1407,7 @@
             "TRUE"
           ],
           [
-            "harvest",
-            "TRUE"
-          ],
-          [
-            "headcheese",
-            "TRUE"
-          ],
-          [
-            "headmistress",
-            "TRUE"
-          ],
-          [
-            "huckleberry",
-            "TRUE"
-          ],
-          [
-            "inkwell",
-            "TRUE"
-          ],
-          [
-            "knitter",
-            "TRUE"
-          ],
-          [
-            "lambskin",
-            "TRUE"
-          ],
-          [
-            "millionaire",
+            "heiress",
             "TRUE"
           ],
           [
@@ -3724,11 +1415,7 @@
             "TRUE"
           ],
           [
-            "mouthful",
-            "TRUE"
-          ],
-          [
-            "nightclub",
+            "officer",
             "TRUE"
           ],
           [
@@ -3736,11 +1423,11 @@
             "TRUE"
           ],
           [
-            "parchment",
+            "paratrooper",
             "TRUE"
           ],
           [
-            "persimmon",
+            "polygamist",
             "TRUE"
           ],
           [
@@ -3748,31 +1435,11 @@
             "TRUE"
           ],
           [
-            "prosthesis",
-            "TRUE"
-          ],
-          [
-            "prowler",
-            "TRUE"
-          ],
-          [
-            "quicksand",
-            "TRUE"
-          ],
-          [
-            "schoolgirl",
-            "TRUE"
-          ],
-          [
-            "spaceship",
-            "TRUE"
-          ],
-          [
-            "sportswriter",
-            "TRUE"
-          ],
-          [
             "structure",
+            "TRUE"
+          ],
+          [
+            "swordsman",
             "TRUE"
           ],
           [
@@ -3780,71 +1447,11 @@
             "TRUE"
           ],
           [
-            "talisman",
+            "daybed",
             "TRUE"
           ],
           [
-            "tollhouse",
-            "TRUE"
-          ],
-          [
-            "torturer",
-            "TRUE"
-          ],
-          [
-            "turtledove",
-            "TRUE"
-          ],
-          [
-            "whistle",
-            "TRUE"
-          ],
-          [
-            "balloon",
-            "TRUE"
-          ],
-          [
-            "binoculars",
-            "TRUE"
-          ],
-          [
-            "breasts",
-            "TRUE"
-          ],
-          [
-            "cayenne",
-            "TRUE"
-          ],
-          [
-            "cheesecloth",
-            "TRUE"
-          ],
-          [
-            "cousin",
-            "TRUE"
-          ],
-          [
-            "crosswalk",
-            "TRUE"
-          ],
-          [
-            "doornail",
-            "TRUE"
-          ],
-          [
-            "footballer",
-            "TRUE"
-          ],
-          [
-            "goldfish",
-            "TRUE"
-          ],
-          [
-            "gondola",
-            "TRUE"
-          ],
-          [
-            "hairline",
+            "dictionary",
             "TRUE"
           ],
           [
@@ -3852,15 +1459,15 @@
             "TRUE"
           ],
           [
+            "joystick",
+            "TRUE"
+          ],
+          [
             "keyboard",
             "TRUE"
           ],
           [
-            "melon",
-            "TRUE"
-          ],
-          [
-            "mothball",
+            "medallion",
             "TRUE"
           ],
           [
@@ -3868,31 +1475,11 @@
             "TRUE"
           ],
           [
-            "petticoat",
-            "TRUE"
-          ],
-          [
-            "photograph",
-            "TRUE"
-          ],
-          [
-            "pinecone",
-            "TRUE"
-          ],
-          [
-            "poster",
-            "TRUE"
-          ],
-          [
             "powderpuff",
             "TRUE"
           ],
           [
-            "receptacle",
-            "TRUE"
-          ],
-          [
-            "scallop",
+            "pumpkin",
             "TRUE"
           ],
           [
@@ -3900,27 +1487,31 @@
             "TRUE"
           ],
           [
-            "secretary",
+            "sherbet",
             "TRUE"
           ],
           [
-            "slacks",
+            "speakers",
             "TRUE"
           ],
           [
-            "textile",
+            "storekeeper",
             "TRUE"
           ],
           [
-            "tongs",
+            "streetwalker",
             "TRUE"
           ],
           [
-            "waistcoat",
+            "trailer",
             "TRUE"
           ],
           [
-            "washbasin",
+            "wallpaper",
+            "TRUE"
+          ],
+          [
+            "walrus",
             "TRUE"
           ]
         ]
@@ -3953,320 +1544,6 @@
       "title": "Trial Loop A",
       "indexParameter": "trial_number",
       "_tab": "Content"
-    },
-    "20": {
-      "id": "20",
-      "type": "lab.flow.Sequence",
-      "children": [
-        "21",
-        "22"
-      ],
-      "files": [],
-      "responses": [
-        {
-          "label": "",
-          "event": "",
-          "target": "",
-          "filter": ""
-        }
-      ],
-      "parameters": [
-        {
-          "name": "",
-          "value": "",
-          "type": "string"
-        }
-      ],
-      "messageHandlers": [
-        {
-          "title": "",
-          "message": "",
-          "code": ""
-        }
-      ],
-      "title": "Trials"
-    },
-    "21": {
-      "id": "21",
-      "type": "lab.canvas.Screen",
-      "content": [
-        {
-          "type": "line",
-          "version": "4.3.1",
-          "originX": "center",
-          "originY": "center",
-          "left": 0,
-          "top": "-30",
-          "width": 100,
-          "height": 0,
-          "fill": "rgb(0,0,0)",
-          "stroke": "black",
-          "strokeWidth": 1,
-          "strokeDashArray": null,
-          "strokeLineCap": "butt",
-          "strokeDashOffset": 0,
-          "strokeLineJoin": "round",
-          "strokeUniform": false,
-          "strokeMiterLimit": 4,
-          "scaleX": 1,
-          "scaleY": 1,
-          "angle": 0,
-          "flipX": false,
-          "flipY": false,
-          "opacity": 1,
-          "shadow": null,
-          "visible": true,
-          "backgroundColor": "",
-          "fillRule": "nonzero",
-          "paintFirst": "fill",
-          "globalCompositeOperation": "source-over",
-          "skewX": 0,
-          "skewY": 0,
-          "id": "23",
-          "x1": -50,
-          "x2": 50,
-          "y1": 0,
-          "y2": 0
-        },
-        {
-          "type": "line",
-          "version": "4.3.1",
-          "originX": "center",
-          "originY": "center",
-          "left": 0,
-          "top": "30",
-          "width": 100,
-          "height": 0,
-          "fill": "rgb(0,0,0)",
-          "stroke": "black",
-          "strokeWidth": 1,
-          "strokeDashArray": null,
-          "strokeLineCap": "butt",
-          "strokeDashOffset": 0,
-          "strokeLineJoin": "round",
-          "strokeUniform": false,
-          "strokeMiterLimit": 4,
-          "scaleX": 1,
-          "scaleY": 1,
-          "angle": 0,
-          "flipX": false,
-          "flipY": false,
-          "opacity": 1,
-          "shadow": null,
-          "visible": true,
-          "backgroundColor": "",
-          "fillRule": "nonzero",
-          "paintFirst": "fill",
-          "globalCompositeOperation": "source-over",
-          "skewX": 0,
-          "skewY": 0,
-          "id": "24",
-          "x1": -50,
-          "x2": 50,
-          "y1": 0,
-          "y2": 0
-        }
-      ],
-      "viewport": [
-        800,
-        600
-      ],
-      "files": [],
-      "responses": [
-        {
-          "label": "",
-          "event": "",
-          "target": "",
-          "filter": ""
-        }
-      ],
-      "parameters": [
-        {
-          "name": "",
-          "value": "",
-          "type": "string"
-        }
-      ],
-      "messageHandlers": [
-        {
-          "title": "",
-          "message": "",
-          "code": ""
-        }
-      ],
-      "title": "Fixation",
-      "_tab": "Behavior",
-      "timeout": "500"
-    },
-    "22": {
-      "id": "22",
-      "type": "lab.canvas.Screen",
-      "content": [
-        {
-          "type": "i-text",
-          "version": "4.3.1",
-          "originX": "center",
-          "originY": "center",
-          "left": 0,
-          "top": 0,
-          "width": 51.58,
-          "height": 36.16,
-          "fill": "black",
-          "stroke": null,
-          "strokeWidth": 1,
-          "strokeDashArray": null,
-          "strokeLineCap": "butt",
-          "strokeDashOffset": 0,
-          "strokeLineJoin": "round",
-          "strokeUniform": false,
-          "strokeMiterLimit": 4,
-          "scaleX": 1,
-          "scaleY": 1,
-          "angle": 0,
-          "flipX": false,
-          "flipY": false,
-          "opacity": 1,
-          "shadow": null,
-          "visible": true,
-          "backgroundColor": "",
-          "fillRule": "nonzero",
-          "paintFirst": "fill",
-          "globalCompositeOperation": "source-over",
-          "skewX": 0,
-          "skewY": 0,
-          "text": "text",
-          "fontSize": 32,
-          "fontWeight": "normal",
-          "fontFamily": "sans-serif",
-          "fontStyle": "normal",
-          "lineHeight": 1.16,
-          "underline": false,
-          "overline": false,
-          "linethrough": false,
-          "textAlign": "center",
-          "textBackgroundColor": "",
-          "charSpacing": 0,
-          "id": "4",
-          "styles": {}
-        },
-        {
-          "type": "line",
-          "version": "4.3.1",
-          "originX": "center",
-          "originY": "center",
-          "left": 0,
-          "top": "-30",
-          "width": 100,
-          "height": 0,
-          "fill": "rgb(0,0,0)",
-          "stroke": "black",
-          "strokeWidth": 1,
-          "strokeDashArray": null,
-          "strokeLineCap": "butt",
-          "strokeDashOffset": 0,
-          "strokeLineJoin": "round",
-          "strokeUniform": false,
-          "strokeMiterLimit": 4,
-          "scaleX": 1,
-          "scaleY": 1,
-          "angle": 0,
-          "flipX": false,
-          "flipY": false,
-          "opacity": 1,
-          "shadow": null,
-          "visible": true,
-          "backgroundColor": "",
-          "fillRule": "nonzero",
-          "paintFirst": "fill",
-          "globalCompositeOperation": "source-over",
-          "skewX": 0,
-          "skewY": 0,
-          "id": "25",
-          "x1": -50,
-          "x2": 50,
-          "y1": 0,
-          "y2": 0
-        },
-        {
-          "type": "line",
-          "version": "4.3.1",
-          "originX": "center",
-          "originY": "center",
-          "left": 0,
-          "top": "30",
-          "width": 100,
-          "height": 0,
-          "fill": "rgb(0,0,0)",
-          "stroke": "black",
-          "strokeWidth": 1,
-          "strokeDashArray": null,
-          "strokeLineCap": "butt",
-          "strokeDashOffset": 0,
-          "strokeLineJoin": "round",
-          "strokeUniform": false,
-          "strokeMiterLimit": 4,
-          "scaleX": 1,
-          "scaleY": 1,
-          "angle": 0,
-          "flipX": false,
-          "flipY": false,
-          "opacity": 1,
-          "shadow": null,
-          "visible": true,
-          "backgroundColor": "",
-          "fillRule": "nonzero",
-          "paintFirst": "fill",
-          "globalCompositeOperation": "source-over",
-          "skewX": 0,
-          "skewY": 0,
-          "id": "26",
-          "x1": -50,
-          "x2": 50,
-          "y1": 0,
-          "y2": 0
-        }
-      ],
-      "viewport": [
-        800,
-        600
-      ],
-      "files": [],
-      "responses": [
-        {
-          "label": "TRUE",
-          "event": "keypress",
-          "target": "",
-          "filter": "j"
-        },
-        {
-          "label": "FALSE",
-          "event": "keypress",
-          "filter": "f"
-        },
-        {
-          "label": "unknown",
-          "event": "keypress",
-          "filter": "Space"
-        }
-      ],
-      "parameters": [
-        {
-          "name": "",
-          "value": "",
-          "type": "string"
-        }
-      ],
-      "messageHandlers": [
-        {
-          "title": "",
-          "message": "",
-          "code": ""
-        }
-      ],
-      "title": "Trial",
-      "_tab": "Behavior",
-      "timeout": "3000",
-      "correctResponse": "${this.parameters.is_concrete}"
     },
     "23": {
       "id": "23",
@@ -4395,136 +1672,7 @@
         }
       ],
       "title": "Break1",
-      "_tab": "Behavior"
-    },
-    "24": {
-      "id": "24",
-      "type": "lab.canvas.Screen",
-      "content": [
-        {
-          "type": "i-text",
-          "version": "4.3.1",
-          "originX": "center",
-          "originY": "center",
-          "left": 0,
-          "top": 50,
-          "width": 777.81,
-          "height": 358.23,
-          "fill": "black",
-          "stroke": null,
-          "strokeWidth": 1,
-          "strokeDashArray": null,
-          "strokeLineCap": "butt",
-          "strokeDashOffset": 0,
-          "strokeLineJoin": "round",
-          "strokeUniform": false,
-          "strokeMiterLimit": 4,
-          "scaleX": 1,
-          "scaleY": 1,
-          "angle": 0,
-          "flipX": false,
-          "flipY": false,
-          "opacity": 1,
-          "shadow": null,
-          "visible": true,
-          "backgroundColor": "",
-          "fillRule": "nonzero",
-          "paintFirst": "fill",
-          "globalCompositeOperation": "source-over",
-          "skewX": 0,
-          "skewY": 0,
-          "text": "Remember:\nPress F for Abstract and J for Concrete. If you are unsure what the word means, press the SPACE BAR for unsure.\n\n\nPlease respond as quickly and accurately as possible.\n\nAlso, please try your best to classify words as concrete or abstract. \nIf you indicate that you do not know the presented word for the majority of items, \nwe will need to ask you to return the job.\n\nConcrete words are defined as things or actions in reality, which you can experience directly through your senses. \nThese words are experience-based.\nExamples of concrete words are: night, apple, bridle, lynx, and door. \n\nAbstract words are defined as something you cannot experience directly through your senses or actions. \nThese words are language-based, as their meaning depends on other words. \nExamples of abstract words include: have, limitation, and outspokenness.\n",
-          "fontSize": "15.3",
-          "fontWeight": "normal",
-          "fontFamily": "sans-serif",
-          "fontStyle": "normal",
-          "lineHeight": 1.16,
-          "underline": false,
-          "overline": false,
-          "linethrough": false,
-          "textAlign": "center",
-          "textBackgroundColor": "",
-          "charSpacing": 0,
-          "id": "43",
-          "styles": {}
-        },
-        {
-          "type": "i-text",
-          "version": "4.3.1",
-          "originX": "center",
-          "originY": "center",
-          "left": 14,
-          "top": -175,
-          "width": 739.69,
-          "height": 41.49,
-          "fill": "black",
-          "stroke": null,
-          "strokeWidth": 1,
-          "strokeDashArray": null,
-          "strokeLineCap": "butt",
-          "strokeDashOffset": 0,
-          "strokeLineJoin": "round",
-          "strokeUniform": false,
-          "strokeMiterLimit": 4,
-          "scaleX": 1,
-          "scaleY": 1,
-          "angle": 0,
-          "flipX": false,
-          "flipY": false,
-          "opacity": 1,
-          "shadow": null,
-          "visible": true,
-          "backgroundColor": "",
-          "fillRule": "nonzero",
-          "paintFirst": "fill",
-          "globalCompositeOperation": "source-over",
-          "skewX": 0,
-          "skewY": 0,
-          "text": "You have just completed Block 2. You have one block left. You may now take a short break. \nPress the Space Bar when you are ready to continue.",
-          "fontSize": "17",
-          "fontWeight": "bold",
-          "fontFamily": "sans-serif",
-          "fontStyle": "normal",
-          "lineHeight": 1.16,
-          "underline": false,
-          "overline": false,
-          "linethrough": false,
-          "textAlign": "center",
-          "textBackgroundColor": "",
-          "charSpacing": 0,
-          "id": "44",
-          "styles": {}
-        }
-      ],
-      "viewport": [
-        800,
-        600
-      ],
-      "files": [],
-      "responses": [
-        {
-          "label": "break_advance",
-          "event": "keypress",
-          "target": "",
-          "filter": "Space"
-        }
-      ],
-      "parameters": [
-        {
-          "name": "",
-          "value": "",
-          "type": "string"
-        }
-      ],
-      "messageHandlers": [
-        {
-          "title": "",
-          "message": "",
-          "code": ""
-        }
-      ],
-      "title": "Break2",
-      "_tab": "Behavior"
+      "_tab": "Content"
     },
     "26": {
       "id": "26",
@@ -5558,7 +2706,7 @@
         }
       ],
       "title": "Trial",
-      "_tab": "Content",
+      "_tab": "Behavior",
       "correctResponse": "${this.parameters.correct_response}"
     },
     "45": {
@@ -5968,7 +3116,7 @@
       "title": "Feedback abstract",
       "_tab": "Behavior",
       "tardy": true,
-      "skipCondition": "${this.parameters.is_concrete == true || this.state.correct == true }",
+      "skipCondition": "${this.parameters.is_concrete == true || this.state.correct == true || this.state.response == \"unknown\"}",
       "timeout": "2000"
     },
     "47": {
@@ -6052,6 +3200,5202 @@
       ],
       "title": "Experiment Start Screen",
       "_tab": "Content"
+    },
+    "49": {
+      "id": "49",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 2,
+          "height": 36.16,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "31",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": -200,
+          "top": 100,
+          "width": 8.89,
+          "height": 36.16,
+          "fill": "#d6341a",
+          "stroke": "#d6341a",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "f",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "32",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 200,
+          "top": 100,
+          "width": 7.11,
+          "height": 36.16,
+          "fill": "#000000",
+          "stroke": "#000000",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "j",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "33",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": -200,
+          "top": 150,
+          "width": 113.83,
+          "height": 36.16,
+          "fill": "#d6341a",
+          "stroke": "red",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "abstract",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "34",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 200,
+          "top": 150,
+          "width": 122.73,
+          "height": 36.16,
+          "fill": "#000000",
+          "stroke": "#000000",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "concrete",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "35",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": [],
+      "responses": [],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Feedback idk abstract",
+      "_tab": "Behavior",
+      "tardy": true,
+      "skipCondition": "${this.state.response == \"true\" || this.state.response == \"false\" || this.parameters.is_concrete== true || this.state.correct == true}",
+      "timeout": "2000"
+    },
+    "50": {
+      "id": "50",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 2,
+          "height": 36.16,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "31",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": -200,
+          "top": 100,
+          "width": 8.89,
+          "height": 36.16,
+          "fill": "#000000",
+          "stroke": "#000000",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "f",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "32",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 200,
+          "top": 100,
+          "width": 7.11,
+          "height": 36.16,
+          "fill": "#d6341a",
+          "stroke": "#d6341a",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "j",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "33",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": -200,
+          "top": 150,
+          "width": 113.83,
+          "height": 36.16,
+          "fill": "#000000",
+          "stroke": "#000000",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "abstract",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "34",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 200,
+          "top": 150,
+          "width": 122.73,
+          "height": 36.16,
+          "fill": "#d6341a",
+          "stroke": "#d6341a",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "concrete",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "35",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": [],
+      "responses": [],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Feedback idk concrete",
+      "_tab": "Behavior",
+      "tardy": true,
+      "skipCondition": "${this.state.response == \"true\" || this.parameters.is_concrete== false || this.state.response == \"false\" || this.state.correct == true}",
+      "timeout": "2000"
+    },
+    "51": {
+      "id": "51",
+      "type": "lab.flow.Sequence",
+      "children": [
+        "19",
+        "23"
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Block 1",
+      "_collapsed": false,
+      "_tab": "Behavior"
+    },
+    "52": {
+      "id": "52",
+      "type": "lab.flow.Sequence",
+      "children": [
+        "53",
+        "57"
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Block 6",
+      "_collapsed": false
+    },
+    "53": {
+      "id": "53",
+      "type": "lab.flow.Loop",
+      "children": [
+        "54"
+      ],
+      "templateParameters": {
+        "columns": [
+          {
+            "name": "word",
+            "type": "string"
+          },
+          {
+            "name": "is_concrete",
+            "type": "string"
+          }
+        ],
+        "rows": [
+          [
+            "attention",
+            "FALSE"
+          ],
+          [
+            "benefit",
+            "FALSE"
+          ],
+          [
+            "breadth",
+            "FALSE"
+          ],
+          [
+            "breakup",
+            "FALSE"
+          ],
+          [
+            "caution",
+            "FALSE"
+          ],
+          [
+            "completion",
+            "FALSE"
+          ],
+          [
+            "concept",
+            "FALSE"
+          ],
+          [
+            "concordance",
+            "FALSE"
+          ],
+          [
+            "consent",
+            "FALSE"
+          ],
+          [
+            "craziness",
+            "FALSE"
+          ],
+          [
+            "curiosity",
+            "FALSE"
+          ],
+          [
+            "desire",
+            "FALSE"
+          ],
+          [
+            "discomfort",
+            "FALSE"
+          ],
+          [
+            "eloquence",
+            "FALSE"
+          ],
+          [
+            "fairness",
+            "FALSE"
+          ],
+          [
+            "federation",
+            "FALSE"
+          ],
+          [
+            "forte",
+            "FALSE"
+          ],
+          [
+            "geopolitics",
+            "FALSE"
+          ],
+          [
+            "homey",
+            "FALSE"
+          ],
+          [
+            "immunity",
+            "FALSE"
+          ],
+          [
+            "inertness",
+            "FALSE"
+          ],
+          [
+            "intensifier",
+            "FALSE"
+          ],
+          [
+            "jarring",
+            "FALSE"
+          ],
+          [
+            "justification",
+            "FALSE"
+          ],
+          [
+            "kinetics",
+            "FALSE"
+          ],
+          [
+            "letdown",
+            "FALSE"
+          ],
+          [
+            "longevity",
+            "FALSE"
+          ],
+          [
+            "lowbrow",
+            "FALSE"
+          ],
+          [
+            "malcontent",
+            "FALSE"
+          ],
+          [
+            "maleness",
+            "FALSE"
+          ],
+          [
+            "midweek",
+            "FALSE"
+          ],
+          [
+            "miracle",
+            "FALSE"
+          ],
+          [
+            "motive",
+            "FALSE"
+          ],
+          [
+            "plainness",
+            "FALSE"
+          ],
+          [
+            "prejudice",
+            "FALSE"
+          ],
+          [
+            "presumption",
+            "FALSE"
+          ],
+          [
+            "psychology",
+            "FALSE"
+          ],
+          [
+            "reaction",
+            "FALSE"
+          ],
+          [
+            "realness",
+            "FALSE"
+          ],
+          [
+            "reckoning",
+            "FALSE"
+          ],
+          [
+            "revisionist",
+            "FALSE"
+          ],
+          [
+            "sensibility",
+            "FALSE"
+          ],
+          [
+            "simile",
+            "FALSE"
+          ],
+          [
+            "simplification",
+            "FALSE"
+          ],
+          [
+            "someway",
+            "FALSE"
+          ],
+          [
+            "taker",
+            "FALSE"
+          ],
+          [
+            "urge",
+            "FALSE"
+          ],
+          [
+            "velocity",
+            "FALSE"
+          ],
+          [
+            "wickedness",
+            "FALSE"
+          ],
+          [
+            "woe",
+            "FALSE"
+          ],
+          [
+            "cannibal",
+            "TRUE"
+          ],
+          [
+            "cascade",
+            "TRUE"
+          ],
+          [
+            "chlorophyll",
+            "TRUE"
+          ],
+          [
+            "country",
+            "TRUE"
+          ],
+          [
+            "county",
+            "TRUE"
+          ],
+          [
+            "entrails",
+            "TRUE"
+          ],
+          [
+            "hydrochloride",
+            "TRUE"
+          ],
+          [
+            "hypothermia",
+            "TRUE"
+          ],
+          [
+            "jig",
+            "TRUE"
+          ],
+          [
+            "laceration",
+            "TRUE"
+          ],
+          [
+            "lacquer",
+            "TRUE"
+          ],
+          [
+            "lighting",
+            "TRUE"
+          ],
+          [
+            "menthol",
+            "TRUE"
+          ],
+          [
+            "peddler",
+            "TRUE"
+          ],
+          [
+            "pentagram",
+            "TRUE"
+          ],
+          [
+            "pinstripe",
+            "TRUE"
+          ],
+          [
+            "provider",
+            "TRUE"
+          ],
+          [
+            "speakeasy",
+            "TRUE"
+          ],
+          [
+            "castle",
+            "TRUE"
+          ],
+          [
+            "chandelier",
+            "TRUE"
+          ],
+          [
+            "classroom",
+            "TRUE"
+          ],
+          [
+            "converter",
+            "TRUE"
+          ],
+          [
+            "cyclist",
+            "TRUE"
+          ],
+          [
+            "defendant",
+            "TRUE"
+          ],
+          [
+            "florist",
+            "TRUE"
+          ],
+          [
+            "knitter",
+            "TRUE"
+          ],
+          [
+            "landmine",
+            "TRUE"
+          ],
+          [
+            "lather",
+            "TRUE"
+          ],
+          [
+            "mouthful",
+            "TRUE"
+          ],
+          [
+            "opiate",
+            "TRUE"
+          ],
+          [
+            "orator",
+            "TRUE"
+          ],
+          [
+            "register",
+            "TRUE"
+          ],
+          [
+            "steroids",
+            "TRUE"
+          ],
+          [
+            "tollhouse",
+            "TRUE"
+          ],
+          [
+            "turtledove",
+            "TRUE"
+          ],
+          [
+            "whirlpool",
+            "TRUE"
+          ],
+          [
+            "whistle",
+            "TRUE"
+          ],
+          [
+            "corkscrew",
+            "TRUE"
+          ],
+          [
+            "footballer",
+            "TRUE"
+          ],
+          [
+            "goldfish",
+            "TRUE"
+          ],
+          [
+            "matchstick",
+            "TRUE"
+          ],
+          [
+            "melon",
+            "TRUE"
+          ],
+          [
+            "oilcan",
+            "TRUE"
+          ],
+          [
+            "pinwheel",
+            "TRUE"
+          ],
+          [
+            "rhubarb",
+            "TRUE"
+          ],
+          [
+            "scallop",
+            "TRUE"
+          ],
+          [
+            "stocking",
+            "TRUE"
+          ],
+          [
+            "therapist",
+            "TRUE"
+          ],
+          [
+            "tongs",
+            "TRUE"
+          ],
+          [
+            "underclothing",
+            "TRUE"
+          ]
+        ]
+      },
+      "sample": {
+        "mode": "draw-shuffle"
+      },
+      "files": [
+        {
+          "localPath": "exp_block1.csv",
+          "poolPath": "embedded/c7c54e39459da97a99f2c0f15961958d186f17bba4505fd2882264deb0df57dc.csv"
+        }
+      ],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Trial Loop F",
+      "indexParameter": "trial_number",
+      "_tab": "Content"
+    },
+    "54": {
+      "id": "54",
+      "type": "lab.flow.Sequence",
+      "children": [
+        "55",
+        "56"
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Trials",
+      "_tab": "Content"
+    },
+    "55": {
+      "id": "55",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": "-30",
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "23",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": "30",
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "24",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Fixation",
+      "_tab": "Behavior",
+      "timeout": "500"
+    },
+    "56": {
+      "id": "56",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 337.95,
+          "height": 36.16,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "${this.parameters.word}",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "4",
+          "styles": {}
+        },
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -30,
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "25",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 30,
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "26",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "TRUE",
+          "event": "keypress",
+          "target": "",
+          "filter": "j"
+        },
+        {
+          "label": "FALSE",
+          "event": "keypress",
+          "filter": "f"
+        },
+        {
+          "label": "unknown",
+          "event": "keypress",
+          "filter": "Space"
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Trial",
+      "_tab": "Behavior",
+      "timeout": "3000",
+      "correctResponse": "${this.parameters.is_concrete}"
+    },
+    "57": {
+      "id": "57",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 50,
+          "width": 777.81,
+          "height": 358.23,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Remember:\nPress F for Abstract and J for Concrete. If you are unsure what the word means, press the SPACE BAR for unsure.\n\n\nPlease respond as quickly and accurately as possible.\n\nAlso, please try your best to classify words as concrete or abstract. \nIf you indicate that you do not know the presented word for the majority of items, \nwe will need to ask you to return the job.\n\nConcrete words are defined as things or actions in reality, which you can experience directly through your senses. \nThese words are experience-based.\nExamples of concrete words are: night, apple, bridle, lynx, and door. \n\nAbstract words are defined as something you cannot experience directly through your senses or actions. \nThese words are language-based, as their meaning depends on other words. \nExamples of abstract words include: have, limitation, and outspokenness.\n",
+          "fontSize": "15.3",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "43",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 14,
+          "top": -175,
+          "width": 748.19,
+          "height": 41.49,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "You have just completed Block 1. You have two blocks left. You may now take a short break. \nPress the Space Bar you are ready to continue.",
+          "fontSize": "17",
+          "fontWeight": "bold",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "44",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "break_advance",
+          "event": "keypress",
+          "target": "",
+          "filter": "Space"
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Break1",
+      "_tab": "Behavior"
+    },
+    "58": {
+      "id": "58",
+      "type": "lab.flow.Sequence",
+      "children": [
+        "59",
+        "63"
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Block 5",
+      "_collapsed": false
+    },
+    "59": {
+      "id": "59",
+      "type": "lab.flow.Loop",
+      "children": [
+        "60"
+      ],
+      "templateParameters": {
+        "columns": [
+          {
+            "name": "word",
+            "type": "string"
+          },
+          {
+            "name": "is_concrete",
+            "type": "string"
+          }
+        ],
+        "rows": [
+          [
+            "alliteration",
+            "FALSE"
+          ],
+          [
+            "amorality",
+            "FALSE"
+          ],
+          [
+            "anonymity",
+            "FALSE"
+          ],
+          [
+            "bourgeoisie",
+            "FALSE"
+          ],
+          [
+            "candidacy",
+            "FALSE"
+          ],
+          [
+            "causation",
+            "FALSE"
+          ],
+          [
+            "comparison",
+            "FALSE"
+          ],
+          [
+            "condemnation",
+            "FALSE"
+          ],
+          [
+            "continuity",
+            "FALSE"
+          ],
+          [
+            "creation",
+            "FALSE"
+          ],
+          [
+            "cynicism",
+            "FALSE"
+          ],
+          [
+            "damnation",
+            "FALSE"
+          ],
+          [
+            "depiction",
+            "FALSE"
+          ],
+          [
+            "disappointment",
+            "FALSE"
+          ],
+          [
+            "dread",
+            "FALSE"
+          ],
+          [
+            "ego",
+            "FALSE"
+          ],
+          [
+            "egoism",
+            "FALSE"
+          ],
+          [
+            "euphemism",
+            "FALSE"
+          ],
+          [
+            "existence",
+            "FALSE"
+          ],
+          [
+            "fault",
+            "FALSE"
+          ],
+          [
+            "giddiness",
+            "FALSE"
+          ],
+          [
+            "heartbreak",
+            "FALSE"
+          ],
+          [
+            "ignoramus",
+            "FALSE"
+          ],
+          [
+            "infinitive",
+            "FALSE"
+          ],
+          [
+            "intention",
+            "FALSE"
+          ],
+          [
+            "lesbianism",
+            "FALSE"
+          ],
+          [
+            "malice",
+            "FALSE"
+          ],
+          [
+            "marxism",
+            "FALSE"
+          ],
+          [
+            "morale",
+            "FALSE"
+          ],
+          [
+            "motif",
+            "FALSE"
+          ],
+          [
+            "negation",
+            "FALSE"
+          ],
+          [
+            "penance",
+            "FALSE"
+          ],
+          [
+            "perversity",
+            "FALSE"
+          ],
+          [
+            "prominence",
+            "FALSE"
+          ],
+          [
+            "promptness",
+            "FALSE"
+          ],
+          [
+            "prowess",
+            "FALSE"
+          ],
+          [
+            "pureblood",
+            "FALSE"
+          ],
+          [
+            "qualifier",
+            "FALSE"
+          ],
+          [
+            "quirk",
+            "FALSE"
+          ],
+          [
+            "reconciliation",
+            "FALSE"
+          ],
+          [
+            "redemption",
+            "FALSE"
+          ],
+          [
+            "respect",
+            "FALSE"
+          ],
+          [
+            "romance",
+            "FALSE"
+          ],
+          [
+            "schemer",
+            "FALSE"
+          ],
+          [
+            "spidery",
+            "FALSE"
+          ],
+          [
+            "sustenance",
+            "FALSE"
+          ],
+          [
+            "tenure",
+            "FALSE"
+          ],
+          [
+            "thrill",
+            "FALSE"
+          ],
+          [
+            "upbringing",
+            "FALSE"
+          ],
+          [
+            "veneration",
+            "FALSE"
+          ],
+          [
+            "bobtail",
+            "TRUE"
+          ],
+          [
+            "clang",
+            "TRUE"
+          ],
+          [
+            "committee",
+            "TRUE"
+          ],
+          [
+            "featherweight",
+            "TRUE"
+          ],
+          [
+            "forger",
+            "TRUE"
+          ],
+          [
+            "freeloader",
+            "TRUE"
+          ],
+          [
+            "hemisphere",
+            "TRUE"
+          ],
+          [
+            "passageway",
+            "TRUE"
+          ],
+          [
+            "pueblo",
+            "TRUE"
+          ],
+          [
+            "shipment",
+            "TRUE"
+          ],
+          [
+            "watermark",
+            "TRUE"
+          ],
+          [
+            "wintertime",
+            "TRUE"
+          ],
+          [
+            "bellhop",
+            "TRUE"
+          ],
+          [
+            "chairperson",
+            "TRUE"
+          ],
+          [
+            "coolant",
+            "TRUE"
+          ],
+          [
+            "grandniece",
+            "TRUE"
+          ],
+          [
+            "harvest",
+            "TRUE"
+          ],
+          [
+            "horsehair",
+            "TRUE"
+          ],
+          [
+            "inkwell",
+            "TRUE"
+          ],
+          [
+            "kennel",
+            "TRUE"
+          ],
+          [
+            "landscape",
+            "TRUE"
+          ],
+          [
+            "millionaire",
+            "TRUE"
+          ],
+          [
+            "orthodontics",
+            "TRUE"
+          ],
+          [
+            "parchment",
+            "TRUE"
+          ],
+          [
+            "persimmon",
+            "TRUE"
+          ],
+          [
+            "prong",
+            "TRUE"
+          ],
+          [
+            "prosthesis",
+            "TRUE"
+          ],
+          [
+            "quicksand",
+            "TRUE"
+          ],
+          [
+            "schoolgirl",
+            "TRUE"
+          ],
+          [
+            "silversmith",
+            "TRUE"
+          ],
+          [
+            "talisman",
+            "TRUE"
+          ],
+          [
+            "bicep",
+            "TRUE"
+          ],
+          [
+            "binoculars",
+            "TRUE"
+          ],
+          [
+            "blackboard",
+            "TRUE"
+          ],
+          [
+            "blackhead",
+            "TRUE"
+          ],
+          [
+            "cayenne",
+            "TRUE"
+          ],
+          [
+            "cheerleader",
+            "TRUE"
+          ],
+          [
+            "drawers",
+            "TRUE"
+          ],
+          [
+            "grandma",
+            "TRUE"
+          ],
+          [
+            "photograph",
+            "TRUE"
+          ],
+          [
+            "pinecone",
+            "TRUE"
+          ],
+          [
+            "poster",
+            "TRUE"
+          ],
+          [
+            "pushcart",
+            "TRUE"
+          ],
+          [
+            "secretary",
+            "TRUE"
+          ],
+          [
+            "sketchpad",
+            "TRUE"
+          ],
+          [
+            "slacks",
+            "TRUE"
+          ],
+          [
+            "strainer",
+            "TRUE"
+          ],
+          [
+            "strings",
+            "TRUE"
+          ],
+          [
+            "textile",
+            "TRUE"
+          ],
+          [
+            "triceps",
+            "TRUE"
+          ]
+        ]
+      },
+      "sample": {
+        "mode": "draw-shuffle"
+      },
+      "files": [
+        {
+          "localPath": "exp_block1.csv",
+          "poolPath": "embedded/c7c54e39459da97a99f2c0f15961958d186f17bba4505fd2882264deb0df57dc.csv"
+        }
+      ],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Trial Loop E",
+      "indexParameter": "trial_number",
+      "_tab": "Content"
+    },
+    "60": {
+      "id": "60",
+      "type": "lab.flow.Sequence",
+      "children": [
+        "61",
+        "62"
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Trials",
+      "_tab": "Content"
+    },
+    "61": {
+      "id": "61",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": "-30",
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "23",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": "30",
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "24",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Fixation",
+      "_tab": "Behavior",
+      "timeout": "500"
+    },
+    "62": {
+      "id": "62",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 337.95,
+          "height": 36.16,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "${this.parameters.word}",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "4",
+          "styles": {}
+        },
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -30,
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "25",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 30,
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "26",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "TRUE",
+          "event": "keypress",
+          "target": "",
+          "filter": "j"
+        },
+        {
+          "label": "FALSE",
+          "event": "keypress",
+          "filter": "f"
+        },
+        {
+          "label": "unknown",
+          "event": "keypress",
+          "filter": "Space"
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Trial",
+      "_tab": "Behavior",
+      "timeout": "3000",
+      "correctResponse": "${this.parameters.is_concrete}"
+    },
+    "63": {
+      "id": "63",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 50,
+          "width": 777.81,
+          "height": 358.23,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Remember:\nPress F for Abstract and J for Concrete. If you are unsure what the word means, press the SPACE BAR for unsure.\n\n\nPlease respond as quickly and accurately as possible.\n\nAlso, please try your best to classify words as concrete or abstract. \nIf you indicate that you do not know the presented word for the majority of items, \nwe will need to ask you to return the job.\n\nConcrete words are defined as things or actions in reality, which you can experience directly through your senses. \nThese words are experience-based.\nExamples of concrete words are: night, apple, bridle, lynx, and door. \n\nAbstract words are defined as something you cannot experience directly through your senses or actions. \nThese words are language-based, as their meaning depends on other words. \nExamples of abstract words include: have, limitation, and outspokenness.\n",
+          "fontSize": "15.3",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "43",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 14,
+          "top": -175,
+          "width": 748.19,
+          "height": 41.49,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "You have just completed Block 1. You have two blocks left. You may now take a short break. \nPress the Space Bar you are ready to continue.",
+          "fontSize": "17",
+          "fontWeight": "bold",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "44",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "break_advance",
+          "event": "keypress",
+          "target": "",
+          "filter": "Space"
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Break1",
+      "_tab": "Behavior"
+    },
+    "64": {
+      "id": "64",
+      "type": "lab.flow.Sequence",
+      "children": [
+        "65",
+        "69"
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Block 4",
+      "_collapsed": false
+    },
+    "65": {
+      "id": "65",
+      "type": "lab.flow.Loop",
+      "children": [
+        "66"
+      ],
+      "templateParameters": {
+        "columns": [
+          {
+            "name": "word",
+            "type": "string"
+          },
+          {
+            "name": "is_concrete",
+            "type": "string"
+          }
+        ],
+        "rows": [
+          [
+            "abstention",
+            "FALSE"
+          ],
+          [
+            "activation",
+            "FALSE"
+          ],
+          [
+            "allure",
+            "FALSE"
+          ],
+          [
+            "assertion",
+            "FALSE"
+          ],
+          [
+            "callousness",
+            "FALSE"
+          ],
+          [
+            "comeback",
+            "FALSE"
+          ],
+          [
+            "compliance",
+            "FALSE"
+          ],
+          [
+            "contempt",
+            "FALSE"
+          ],
+          [
+            "default",
+            "FALSE"
+          ],
+          [
+            "depravity",
+            "FALSE"
+          ],
+          [
+            "dilemma",
+            "FALSE"
+          ],
+          [
+            "duress",
+            "FALSE"
+          ],
+          [
+            "elegance",
+            "FALSE"
+          ],
+          [
+            "excellency",
+            "FALSE"
+          ],
+          [
+            "exertion",
+            "FALSE"
+          ],
+          [
+            "exposure",
+            "FALSE"
+          ],
+          [
+            "falsehood",
+            "FALSE"
+          ],
+          [
+            "hatred",
+            "FALSE"
+          ],
+          [
+            "heyday",
+            "FALSE"
+          ],
+          [
+            "humor",
+            "FALSE"
+          ],
+          [
+            "info",
+            "FALSE"
+          ],
+          [
+            "instinct",
+            "FALSE"
+          ],
+          [
+            "intonation",
+            "FALSE"
+          ],
+          [
+            "jinx",
+            "FALSE"
+          ],
+          [
+            "lack",
+            "FALSE"
+          ],
+          [
+            "lingo",
+            "FALSE"
+          ],
+          [
+            "loss",
+            "FALSE"
+          ],
+          [
+            "manifestation",
+            "FALSE"
+          ],
+          [
+            "morals",
+            "FALSE"
+          ],
+          [
+            "naivete",
+            "FALSE"
+          ],
+          [
+            "outrage",
+            "FALSE"
+          ],
+          [
+            "pause",
+            "FALSE"
+          ],
+          [
+            "peacetime",
+            "FALSE"
+          ],
+          [
+            "persuasion",
+            "FALSE"
+          ],
+          [
+            "prodigal",
+            "FALSE"
+          ],
+          [
+            "prognosis",
+            "FALSE"
+          ],
+          [
+            "rawness",
+            "FALSE"
+          ],
+          [
+            "repute",
+            "FALSE"
+          ],
+          [
+            "rightness",
+            "FALSE"
+          ],
+          [
+            "scheme",
+            "FALSE"
+          ],
+          [
+            "secrecy",
+            "FALSE"
+          ],
+          [
+            "situation",
+            "FALSE"
+          ],
+          [
+            "spirit",
+            "FALSE"
+          ],
+          [
+            "sterility",
+            "FALSE"
+          ],
+          [
+            "supposition",
+            "FALSE"
+          ],
+          [
+            "tolerance",
+            "FALSE"
+          ],
+          [
+            "turnoff",
+            "FALSE"
+          ],
+          [
+            "uprising",
+            "FALSE"
+          ],
+          [
+            "vow",
+            "FALSE"
+          ],
+          [
+            "witchery",
+            "FALSE"
+          ],
+          [
+            "apostrophe",
+            "TRUE"
+          ],
+          [
+            "bogey",
+            "TRUE"
+          ],
+          [
+            "borehole",
+            "TRUE"
+          ],
+          [
+            "breath",
+            "TRUE"
+          ],
+          [
+            "cartwheel",
+            "TRUE"
+          ],
+          [
+            "combustion",
+            "TRUE"
+          ],
+          [
+            "downpour",
+            "TRUE"
+          ],
+          [
+            "ebony",
+            "TRUE"
+          ],
+          [
+            "ejector",
+            "TRUE"
+          ],
+          [
+            "flock",
+            "TRUE"
+          ],
+          [
+            "heroine",
+            "TRUE"
+          ],
+          [
+            "hobgoblin",
+            "TRUE"
+          ],
+          [
+            "honeymoon",
+            "TRUE"
+          ],
+          [
+            "laryngitis",
+            "TRUE"
+          ],
+          [
+            "mastectomy",
+            "TRUE"
+          ],
+          [
+            "monogram",
+            "TRUE"
+          ],
+          [
+            "mourner",
+            "TRUE"
+          ],
+          [
+            "outback",
+            "TRUE"
+          ],
+          [
+            "respiration",
+            "TRUE"
+          ],
+          [
+            "suite",
+            "TRUE"
+          ],
+          [
+            "taster",
+            "TRUE"
+          ],
+          [
+            "transcript",
+            "TRUE"
+          ],
+          [
+            "warhorse",
+            "TRUE"
+          ],
+          [
+            "headmistress",
+            "TRUE"
+          ],
+          [
+            "huckleberry",
+            "TRUE"
+          ],
+          [
+            "orangutan",
+            "TRUE"
+          ],
+          [
+            "phonograph",
+            "TRUE"
+          ],
+          [
+            "prowler",
+            "TRUE"
+          ],
+          [
+            "spaceship",
+            "TRUE"
+          ],
+          [
+            "violinist",
+            "TRUE"
+          ],
+          [
+            "beer",
+            "TRUE"
+          ],
+          [
+            "blowtorch",
+            "TRUE"
+          ],
+          [
+            "breasts",
+            "TRUE"
+          ],
+          [
+            "calender",
+            "TRUE"
+          ],
+          [
+            "cheesecloth",
+            "TRUE"
+          ],
+          [
+            "chowder",
+            "TRUE"
+          ],
+          [
+            "cousin",
+            "TRUE"
+          ],
+          [
+            "encyclopedia",
+            "TRUE"
+          ],
+          [
+            "junk",
+            "TRUE"
+          ],
+          [
+            "mayonnaise",
+            "TRUE"
+          ],
+          [
+            "pebble",
+            "TRUE"
+          ],
+          [
+            "postmaster",
+            "TRUE"
+          ],
+          [
+            "satchel",
+            "TRUE"
+          ],
+          [
+            "scrapbook",
+            "TRUE"
+          ],
+          [
+            "stair",
+            "TRUE"
+          ],
+          [
+            "stepsister",
+            "TRUE"
+          ],
+          [
+            "throat",
+            "TRUE"
+          ],
+          [
+            "trainer",
+            "TRUE"
+          ],
+          [
+            "trousers",
+            "TRUE"
+          ],
+          [
+            "waistcoat",
+            "TRUE"
+          ]
+        ]
+      },
+      "sample": {
+        "mode": "draw-shuffle"
+      },
+      "files": [
+        {
+          "localPath": "exp_block1.csv",
+          "poolPath": "embedded/c7c54e39459da97a99f2c0f15961958d186f17bba4505fd2882264deb0df57dc.csv"
+        }
+      ],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Trial Loop D",
+      "indexParameter": "trial_number",
+      "_tab": "Content"
+    },
+    "66": {
+      "id": "66",
+      "type": "lab.flow.Sequence",
+      "children": [
+        "67",
+        "68"
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Trials",
+      "_tab": "Content"
+    },
+    "67": {
+      "id": "67",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": "-30",
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "23",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": "30",
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "24",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Fixation",
+      "_tab": "Behavior",
+      "timeout": "500"
+    },
+    "68": {
+      "id": "68",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 337.95,
+          "height": 36.16,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "${this.parameters.word}",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "4",
+          "styles": {}
+        },
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -30,
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "25",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 30,
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "26",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "TRUE",
+          "event": "keypress",
+          "target": "",
+          "filter": "j"
+        },
+        {
+          "label": "FALSE",
+          "event": "keypress",
+          "filter": "f"
+        },
+        {
+          "label": "unknown",
+          "event": "keypress",
+          "filter": "Space"
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Trial",
+      "_tab": "Behavior",
+      "timeout": "3000",
+      "correctResponse": "${this.parameters.is_concrete}"
+    },
+    "69": {
+      "id": "69",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 50,
+          "width": 777.81,
+          "height": 358.23,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Remember:\nPress F for Abstract and J for Concrete. If you are unsure what the word means, press the SPACE BAR for unsure.\n\n\nPlease respond as quickly and accurately as possible.\n\nAlso, please try your best to classify words as concrete or abstract. \nIf you indicate that you do not know the presented word for the majority of items, \nwe will need to ask you to return the job.\n\nConcrete words are defined as things or actions in reality, which you can experience directly through your senses. \nThese words are experience-based.\nExamples of concrete words are: night, apple, bridle, lynx, and door. \n\nAbstract words are defined as something you cannot experience directly through your senses or actions. \nThese words are language-based, as their meaning depends on other words. \nExamples of abstract words include: have, limitation, and outspokenness.\n",
+          "fontSize": "15.3",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "43",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 14,
+          "top": -175,
+          "width": 748.19,
+          "height": 41.49,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "You have just completed Block 1. You have two blocks left. You may now take a short break. \nPress the Space Bar you are ready to continue.",
+          "fontSize": "17",
+          "fontWeight": "bold",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "44",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "break_advance",
+          "event": "keypress",
+          "target": "",
+          "filter": "Space"
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Break1",
+      "_tab": "Behavior"
+    },
+    "70": {
+      "id": "70",
+      "type": "lab.flow.Sequence",
+      "children": [
+        "71",
+        "75"
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Block 3",
+      "_collapsed": false
+    },
+    "71": {
+      "id": "71",
+      "type": "lab.flow.Loop",
+      "children": [
+        "72"
+      ],
+      "templateParameters": {
+        "columns": [
+          {
+            "name": "word",
+            "type": "string"
+          },
+          {
+            "name": "is_concrete",
+            "type": "string"
+          }
+        ],
+        "rows": [
+          [
+            "accord",
+            "FALSE"
+          ],
+          [
+            "adjunct",
+            "FALSE"
+          ],
+          [
+            "advancement",
+            "FALSE"
+          ],
+          [
+            "affront",
+            "FALSE"
+          ],
+          [
+            "amazement",
+            "FALSE"
+          ],
+          [
+            "anomaly",
+            "FALSE"
+          ],
+          [
+            "apocalypse",
+            "FALSE"
+          ],
+          [
+            "aspect",
+            "FALSE"
+          ],
+          [
+            "assurance",
+            "FALSE"
+          ],
+          [
+            "benediction",
+            "FALSE"
+          ],
+          [
+            "betrayal",
+            "FALSE"
+          ],
+          [
+            "caving",
+            "FALSE"
+          ],
+          [
+            "condition",
+            "FALSE"
+          ],
+          [
+            "curate",
+            "FALSE"
+          ],
+          [
+            "deception",
+            "FALSE"
+          ],
+          [
+            "desertion",
+            "FALSE"
+          ],
+          [
+            "doings",
+            "FALSE"
+          ],
+          [
+            "doom",
+            "FALSE"
+          ],
+          [
+            "drudgery",
+            "FALSE"
+          ],
+          [
+            "enigma",
+            "FALSE"
+          ],
+          [
+            "equity",
+            "FALSE"
+          ],
+          [
+            "extermination",
+            "FALSE"
+          ],
+          [
+            "fascination",
+            "FALSE"
+          ],
+          [
+            "geriatrics",
+            "FALSE"
+          ],
+          [
+            "heresy",
+            "FALSE"
+          ],
+          [
+            "hindsight",
+            "FALSE"
+          ],
+          [
+            "husbandry",
+            "FALSE"
+          ],
+          [
+            "hysterics",
+            "FALSE"
+          ],
+          [
+            "jubilee",
+            "FALSE"
+          ],
+          [
+            "kudos",
+            "FALSE"
+          ],
+          [
+            "legacy",
+            "FALSE"
+          ],
+          [
+            "liberty",
+            "FALSE"
+          ],
+          [
+            "lifetime",
+            "FALSE"
+          ],
+          [
+            "lunacy",
+            "FALSE"
+          ],
+          [
+            "methodology",
+            "FALSE"
+          ],
+          [
+            "offense",
+            "FALSE"
+          ],
+          [
+            "origin",
+            "FALSE"
+          ],
+          [
+            "pride",
+            "FALSE"
+          ],
+          [
+            "reformer",
+            "FALSE"
+          ],
+          [
+            "religion",
+            "FALSE"
+          ],
+          [
+            "solitude",
+            "FALSE"
+          ],
+          [
+            "starvation",
+            "FALSE"
+          ],
+          [
+            "strategy",
+            "FALSE"
+          ],
+          [
+            "subjectivity",
+            "FALSE"
+          ],
+          [
+            "tactics",
+            "FALSE"
+          ],
+          [
+            "tenderness",
+            "FALSE"
+          ],
+          [
+            "unfairness",
+            "FALSE"
+          ],
+          [
+            "uplift",
+            "FALSE"
+          ],
+          [
+            "vicinity",
+            "FALSE"
+          ],
+          [
+            "weirdness",
+            "FALSE"
+          ],
+          [
+            "barnyard",
+            "TRUE"
+          ],
+          [
+            "bunghole",
+            "TRUE"
+          ],
+          [
+            "footstep",
+            "TRUE"
+          ],
+          [
+            "interpreter",
+            "TRUE"
+          ],
+          [
+            "junkie",
+            "TRUE"
+          ],
+          [
+            "matting",
+            "TRUE"
+          ],
+          [
+            "nodule",
+            "TRUE"
+          ],
+          [
+            "olympics",
+            "TRUE"
+          ],
+          [
+            "oriole",
+            "TRUE"
+          ],
+          [
+            "sagebrush",
+            "TRUE"
+          ],
+          [
+            "stamen",
+            "TRUE"
+          ],
+          [
+            "stampede",
+            "TRUE"
+          ],
+          [
+            "airliner",
+            "TRUE"
+          ],
+          [
+            "assassin",
+            "TRUE"
+          ],
+          [
+            "bombardier",
+            "TRUE"
+          ],
+          [
+            "chipmunk",
+            "TRUE"
+          ],
+          [
+            "clergy",
+            "TRUE"
+          ],
+          [
+            "deliverer",
+            "TRUE"
+          ],
+          [
+            "graveyard",
+            "TRUE"
+          ],
+          [
+            "gunsmith",
+            "TRUE"
+          ],
+          [
+            "haymaker",
+            "TRUE"
+          ],
+          [
+            "icehouse",
+            "TRUE"
+          ],
+          [
+            "island",
+            "TRUE"
+          ],
+          [
+            "magician",
+            "TRUE"
+          ],
+          [
+            "nightclub",
+            "TRUE"
+          ],
+          [
+            "outhouse",
+            "TRUE"
+          ],
+          [
+            "periscope",
+            "TRUE"
+          ],
+          [
+            "prankster",
+            "TRUE"
+          ],
+          [
+            "precipitation",
+            "TRUE"
+          ],
+          [
+            "schoolmaster",
+            "TRUE"
+          ],
+          [
+            "scratches",
+            "TRUE"
+          ],
+          [
+            "shopper",
+            "TRUE"
+          ],
+          [
+            "balloon",
+            "TRUE"
+          ],
+          [
+            "chessboard",
+            "TRUE"
+          ],
+          [
+            "conditioner",
+            "TRUE"
+          ],
+          [
+            "crosswalk",
+            "TRUE"
+          ],
+          [
+            "doornail",
+            "TRUE"
+          ],
+          [
+            "fryer",
+            "TRUE"
+          ],
+          [
+            "grandchild",
+            "TRUE"
+          ],
+          [
+            "hairline",
+            "TRUE"
+          ],
+          [
+            "house",
+            "TRUE"
+          ],
+          [
+            "mistress",
+            "TRUE"
+          ],
+          [
+            "mothball",
+            "TRUE"
+          ],
+          [
+            "petticoat",
+            "TRUE"
+          ],
+          [
+            "receipt",
+            "TRUE"
+          ],
+          [
+            "receptacle",
+            "TRUE"
+          ],
+          [
+            "revolver",
+            "TRUE"
+          ],
+          [
+            "screwdriver",
+            "TRUE"
+          ],
+          [
+            "tourniquet",
+            "TRUE"
+          ],
+          [
+            "traveler",
+            "TRUE"
+          ]
+        ]
+      },
+      "sample": {
+        "mode": "draw-shuffle"
+      },
+      "files": [
+        {
+          "localPath": "exp_block1.csv",
+          "poolPath": "embedded/c7c54e39459da97a99f2c0f15961958d186f17bba4505fd2882264deb0df57dc.csv"
+        }
+      ],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Trial Loop C",
+      "indexParameter": "trial_number",
+      "_tab": "Content"
+    },
+    "72": {
+      "id": "72",
+      "type": "lab.flow.Sequence",
+      "children": [
+        "73",
+        "74"
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Trials",
+      "_tab": "Content"
+    },
+    "73": {
+      "id": "73",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": "-30",
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "23",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": "30",
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "24",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Fixation",
+      "_tab": "Behavior",
+      "timeout": "500"
+    },
+    "74": {
+      "id": "74",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 337.95,
+          "height": 36.16,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "${this.parameters.word}",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "4",
+          "styles": {}
+        },
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -30,
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "25",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 30,
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "26",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "TRUE",
+          "event": "keypress",
+          "target": "",
+          "filter": "j"
+        },
+        {
+          "label": "FALSE",
+          "event": "keypress",
+          "filter": "f"
+        },
+        {
+          "label": "unknown",
+          "event": "keypress",
+          "filter": "Space"
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Trial",
+      "_tab": "Behavior",
+      "timeout": "3000",
+      "correctResponse": "${this.parameters.is_concrete}"
+    },
+    "75": {
+      "id": "75",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 50,
+          "width": 777.81,
+          "height": 358.23,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Remember:\nPress F for Abstract and J for Concrete. If you are unsure what the word means, press the SPACE BAR for unsure.\n\n\nPlease respond as quickly and accurately as possible.\n\nAlso, please try your best to classify words as concrete or abstract. \nIf you indicate that you do not know the presented word for the majority of items, \nwe will need to ask you to return the job.\n\nConcrete words are defined as things or actions in reality, which you can experience directly through your senses. \nThese words are experience-based.\nExamples of concrete words are: night, apple, bridle, lynx, and door. \n\nAbstract words are defined as something you cannot experience directly through your senses or actions. \nThese words are language-based, as their meaning depends on other words. \nExamples of abstract words include: have, limitation, and outspokenness.\n",
+          "fontSize": "15.3",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "43",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 14,
+          "top": -175,
+          "width": 748.19,
+          "height": 41.49,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "You have just completed Block 1. You have two blocks left. You may now take a short break. \nPress the Space Bar you are ready to continue.",
+          "fontSize": "17",
+          "fontWeight": "bold",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "44",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "break_advance",
+          "event": "keypress",
+          "target": "",
+          "filter": "Space"
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Break1",
+      "_tab": "Content"
+    },
+    "76": {
+      "id": "76",
+      "type": "lab.flow.Sequence",
+      "children": [
+        "77",
+        "81"
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Block 2",
+      "_collapsed": false
+    },
+    "77": {
+      "id": "77",
+      "type": "lab.flow.Loop",
+      "children": [
+        "78"
+      ],
+      "templateParameters": {
+        "columns": [
+          {
+            "name": "word",
+            "type": "string"
+          },
+          {
+            "name": "is_concrete",
+            "type": "string"
+          }
+        ],
+        "rows": [
+          [
+            "abruptness",
+            "FALSE"
+          ],
+          [
+            "angst",
+            "FALSE"
+          ],
+          [
+            "apparition",
+            "FALSE"
+          ],
+          [
+            "appeal",
+            "FALSE"
+          ],
+          [
+            "assessment",
+            "FALSE"
+          ],
+          [
+            "avoidance",
+            "FALSE"
+          ],
+          [
+            "camaraderie",
+            "FALSE"
+          ],
+          [
+            "chance",
+            "FALSE"
+          ],
+          [
+            "decadence",
+            "FALSE"
+          ],
+          [
+            "defect",
+            "FALSE"
+          ],
+          [
+            "diplomacy",
+            "FALSE"
+          ],
+          [
+            "disinterest",
+            "FALSE"
+          ],
+          [
+            "distemper",
+            "FALSE"
+          ],
+          [
+            "dynasty",
+            "FALSE"
+          ],
+          [
+            "expertise",
+            "FALSE"
+          ],
+          [
+            "fanaticism",
+            "FALSE"
+          ],
+          [
+            "finality",
+            "FALSE"
+          ],
+          [
+            "fixation",
+            "FALSE"
+          ],
+          [
+            "fluctuation",
+            "FALSE"
+          ],
+          [
+            "gaffe",
+            "FALSE"
+          ],
+          [
+            "governance",
+            "FALSE"
+          ],
+          [
+            "gumption",
+            "FALSE"
+          ],
+          [
+            "health",
+            "FALSE"
+          ],
+          [
+            "hesitance",
+            "FALSE"
+          ],
+          [
+            "idiocy",
+            "FALSE"
+          ],
+          [
+            "illiteracy",
+            "FALSE"
+          ],
+          [
+            "imagery",
+            "FALSE"
+          ],
+          [
+            "interlude",
+            "FALSE"
+          ],
+          [
+            "liability",
+            "FALSE"
+          ],
+          [
+            "libel",
+            "FALSE"
+          ],
+          [
+            "likelihood",
+            "FALSE"
+          ],
+          [
+            "metaphor",
+            "FALSE"
+          ],
+          [
+            "mistake",
+            "FALSE"
+          ],
+          [
+            "mockery",
+            "FALSE"
+          ],
+          [
+            "mystique",
+            "FALSE"
+          ],
+          [
+            "niceness",
+            "FALSE"
+          ],
+          [
+            "oversight",
+            "FALSE"
+          ],
+          [
+            "pomp",
+            "FALSE"
+          ],
+          [
+            "prospect",
+            "FALSE"
+          ],
+          [
+            "rashness",
+            "FALSE"
+          ],
+          [
+            "refinement",
+            "FALSE"
+          ],
+          [
+            "reign",
+            "FALSE"
+          ],
+          [
+            "reminder",
+            "FALSE"
+          ],
+          [
+            "ruling",
+            "FALSE"
+          ],
+          [
+            "selection",
+            "FALSE"
+          ],
+          [
+            "seniority",
+            "FALSE"
+          ],
+          [
+            "soundness",
+            "FALSE"
+          ],
+          [
+            "transferral",
+            "FALSE"
+          ],
+          [
+            "trendiness",
+            "FALSE"
+          ],
+          [
+            "vulgarity",
+            "FALSE"
+          ],
+          [
+            "anthropologist",
+            "TRUE"
+          ],
+          [
+            "channel",
+            "TRUE"
+          ],
+          [
+            "cleanness",
+            "TRUE"
+          ],
+          [
+            "collision",
+            "TRUE"
+          ],
+          [
+            "flagship",
+            "TRUE"
+          ],
+          [
+            "funeral",
+            "TRUE"
+          ],
+          [
+            "growler",
+            "TRUE"
+          ],
+          [
+            "height",
+            "TRUE"
+          ],
+          [
+            "illustration",
+            "TRUE"
+          ],
+          [
+            "infantry",
+            "TRUE"
+          ],
+          [
+            "negotiator",
+            "TRUE"
+          ],
+          [
+            "pageant",
+            "TRUE"
+          ],
+          [
+            "printing",
+            "TRUE"
+          ],
+          [
+            "seabed",
+            "TRUE"
+          ],
+          [
+            "uppercut",
+            "TRUE"
+          ],
+          [
+            "angler",
+            "TRUE"
+          ],
+          [
+            "antelope",
+            "TRUE"
+          ],
+          [
+            "arches",
+            "TRUE"
+          ],
+          [
+            "banner",
+            "TRUE"
+          ],
+          [
+            "barnacle",
+            "TRUE"
+          ],
+          [
+            "botanist",
+            "TRUE"
+          ],
+          [
+            "bulletin",
+            "TRUE"
+          ],
+          [
+            "caricaturist",
+            "TRUE"
+          ],
+          [
+            "chronometer",
+            "TRUE"
+          ],
+          [
+            "dashboard",
+            "TRUE"
+          ],
+          [
+            "excavator",
+            "TRUE"
+          ],
+          [
+            "fencer",
+            "TRUE"
+          ],
+          [
+            "fiber",
+            "TRUE"
+          ],
+          [
+            "headcheese",
+            "TRUE"
+          ],
+          [
+            "insole",
+            "TRUE"
+          ],
+          [
+            "lambskin",
+            "TRUE"
+          ],
+          [
+            "magnifier",
+            "TRUE"
+          ],
+          [
+            "rickshaw",
+            "TRUE"
+          ],
+          [
+            "sportswriter",
+            "TRUE"
+          ],
+          [
+            "stovepipe",
+            "TRUE"
+          ],
+          [
+            "tailgate",
+            "TRUE"
+          ],
+          [
+            "torturer",
+            "TRUE"
+          ],
+          [
+            "blackberry",
+            "TRUE"
+          ],
+          [
+            "blouse",
+            "TRUE"
+          ],
+          [
+            "cauliflower",
+            "TRUE"
+          ],
+          [
+            "cushion",
+            "TRUE"
+          ],
+          [
+            "cymbals",
+            "TRUE"
+          ],
+          [
+            "dipper",
+            "TRUE"
+          ],
+          [
+            "gondola",
+            "TRUE"
+          ],
+          [
+            "grapevine",
+            "TRUE"
+          ],
+          [
+            "merchandise",
+            "TRUE"
+          ],
+          [
+            "painkiller",
+            "TRUE"
+          ],
+          [
+            "pitcher",
+            "TRUE"
+          ],
+          [
+            "valve",
+            "TRUE"
+          ],
+          [
+            "washbasin",
+            "TRUE"
+          ]
+        ]
+      },
+      "sample": {
+        "mode": "draw-shuffle"
+      },
+      "files": [
+        {
+          "localPath": "exp_block1.csv",
+          "poolPath": "embedded/c7c54e39459da97a99f2c0f15961958d186f17bba4505fd2882264deb0df57dc.csv"
+        }
+      ],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Trial Loop B",
+      "indexParameter": "trial_number",
+      "_tab": "Content"
+    },
+    "78": {
+      "id": "78",
+      "type": "lab.flow.Sequence",
+      "children": [
+        "79",
+        "80"
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Trials",
+      "_tab": "Content"
+    },
+    "79": {
+      "id": "79",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": "-30",
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "23",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": "30",
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "24",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "",
+          "event": "",
+          "target": "",
+          "filter": ""
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Fixation",
+      "_tab": "Behavior",
+      "timeout": "500"
+    },
+    "80": {
+      "id": "80",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 0,
+          "width": 337.95,
+          "height": 36.16,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "${this.parameters.word}",
+          "fontSize": 32,
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "4",
+          "styles": {}
+        },
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": -30,
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "25",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        },
+        {
+          "type": "line",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 30,
+          "width": 100,
+          "height": 0,
+          "fill": "rgb(0,0,0)",
+          "stroke": "black",
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "id": "26",
+          "x1": -50,
+          "x2": 50,
+          "y1": 0,
+          "y2": 0
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "TRUE",
+          "event": "keypress",
+          "target": "",
+          "filter": "j"
+        },
+        {
+          "label": "FALSE",
+          "event": "keypress",
+          "filter": "f"
+        },
+        {
+          "label": "unknown",
+          "event": "keypress",
+          "filter": "Space"
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Trial",
+      "_tab": "Behavior",
+      "timeout": "3000",
+      "correctResponse": "${this.parameters.is_concrete}"
+    },
+    "81": {
+      "id": "81",
+      "type": "lab.canvas.Screen",
+      "content": [
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 0,
+          "top": 50,
+          "width": 777.81,
+          "height": 358.23,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "Remember:\nPress F for Abstract and J for Concrete. If you are unsure what the word means, press the SPACE BAR for unsure.\n\n\nPlease respond as quickly and accurately as possible.\n\nAlso, please try your best to classify words as concrete or abstract. \nIf you indicate that you do not know the presented word for the majority of items, \nwe will need to ask you to return the job.\n\nConcrete words are defined as things or actions in reality, which you can experience directly through your senses. \nThese words are experience-based.\nExamples of concrete words are: night, apple, bridle, lynx, and door. \n\nAbstract words are defined as something you cannot experience directly through your senses or actions. \nThese words are language-based, as their meaning depends on other words. \nExamples of abstract words include: have, limitation, and outspokenness.\n",
+          "fontSize": "15.3",
+          "fontWeight": "normal",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "43",
+          "styles": {}
+        },
+        {
+          "type": "i-text",
+          "version": "4.3.1",
+          "originX": "center",
+          "originY": "center",
+          "left": 14,
+          "top": -175,
+          "width": 748.19,
+          "height": 41.49,
+          "fill": "black",
+          "stroke": null,
+          "strokeWidth": 1,
+          "strokeDashArray": null,
+          "strokeLineCap": "butt",
+          "strokeDashOffset": 0,
+          "strokeLineJoin": "round",
+          "strokeUniform": false,
+          "strokeMiterLimit": 4,
+          "scaleX": 1,
+          "scaleY": 1,
+          "angle": 0,
+          "flipX": false,
+          "flipY": false,
+          "opacity": 1,
+          "shadow": null,
+          "visible": true,
+          "backgroundColor": "",
+          "fillRule": "nonzero",
+          "paintFirst": "fill",
+          "globalCompositeOperation": "source-over",
+          "skewX": 0,
+          "skewY": 0,
+          "text": "You have just completed Block 1. You have two blocks left. You may now take a short break. \nPress the Space Bar you are ready to continue.",
+          "fontSize": "17",
+          "fontWeight": "bold",
+          "fontFamily": "sans-serif",
+          "fontStyle": "normal",
+          "lineHeight": 1.16,
+          "underline": false,
+          "overline": false,
+          "linethrough": false,
+          "textAlign": "center",
+          "textBackgroundColor": "",
+          "charSpacing": 0,
+          "id": "44",
+          "styles": {}
+        }
+      ],
+      "viewport": [
+        800,
+        600
+      ],
+      "files": [],
+      "responses": [
+        {
+          "label": "break_advance",
+          "event": "keypress",
+          "target": "",
+          "filter": "Space"
+        }
+      ],
+      "parameters": [
+        {
+          "name": "",
+          "value": "",
+          "type": "string"
+        }
+      ],
+      "messageHandlers": [
+        {
+          "title": "",
+          "message": "",
+          "code": ""
+        }
+      ],
+      "title": "Break1",
+      "_tab": "Behavior"
     },
     "root": {
       "id": "root",
